@@ -1,0 +1,17 @@
+# wifi_iot.yaml - Standard WiFi setup for Sherbon IoT network
+wifi:
+  networks:
+    - ssid: !secret wifi_ssid_iot
+      password: !secret wifi_password_iot
+      # Critical for your hidden network
+      hidden: true
+  
+  # Architecture-level stability for the XIAO S3 Sense
+  output_power: 8.5dB
+  power_save_mode: none
+  fast_connect: true
+
+  # Fallback AP if the hidden network is out of range
+  ap:
+    ssid: "Sherbon-Fallback"
+    password: !secret wifi_fallback_password
