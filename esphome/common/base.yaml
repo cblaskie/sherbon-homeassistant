@@ -1,0 +1,27 @@
+# base.yaml - Global Standards for Sherbon Home Ops
+
+# Core logging - essential for troubleshooting that -90dB signal
+logger:
+  level: DEBUG
+
+# The Home Assistant API bridge
+api:
+  encryption:
+    key: !secret api_encryption_key
+
+# Over-The-Air updates - allows you to flash new code from your desk
+ota:
+  - platform: esphome
+    password: !secret ota_password
+
+# This allows you to see the device status in the Home Assistant dashboard
+web_server:
+  port: 80
+
+# Basic sensors every ESP32 should have
+sensor:
+  - platform: uptime
+    name: "${friendly_name} Uptime"
+  - platform: wifi_signal
+    name: "${friendly_name} WiFi Signal"
+    update_interval: 60s
