@@ -2,7 +2,13 @@ esphome:
   name: sun_porch_ac
   friendly_name: Sun Porch AC
 
-# Pulls in the hidden network settings from the common folder
+# Defines the specific XIAO S3 hardware
+esp32:
+  board: esp32-s3-devkitc-1
+  framework:
+    type: esp-idf
+
+# Pulls in the hidden network settings from your common folder
 packages:
   wifi: !include common/wifi_iot.yaml
 
@@ -12,5 +18,21 @@ wifi:
     static_ip: 10.69.30.51
     gateway: 10.69.30.1
     subnet: 255.255.255.0
+  # Crucial for hidden networks
+  fast_connect: true
 
-# Your existing hardware and climate logic follows...
+# This pulls the Mitsubishi logic from GitHub
+external_components:
+  - source: github://geoffdavis/esphome-mitsubishiheatpump
+
+# Hardware "As-Built" Connections
+uart:
+  id: mitsubishi_uart
+  tx_pin: GPIO43 # Labeled D6 on XIAO
+  rx_pin: GPIO44 # Labeled D7 on XIAO (Connect 1k Resistor Here!)
+  baud_rate: 2400
+
+climate:
+  - platform: mitsubishi_heatpump
+    name: "Sun Porch AC"
+    uart_id: mitsubishi_uart
