@@ -7,11 +7,16 @@ wifi:
       hidden: true
   
   # Architecture-level stability for the XIAO S3 Sense
+  manual_ip:
+    static_ip: 10.69.30.51
+    gateway: 10.69.30.1
+    subnet: 255.255.255.0
+    
   output_power: 8.5dB
   power_save_mode: none
   fast_connect: true
 
   # Fallback AP if the hidden network is out of range
   ap:
-    ssid: "Sherbon-Fallback"
+    ssid: "Sherbon_Main"
     password: !secret wifi_fallback_password
