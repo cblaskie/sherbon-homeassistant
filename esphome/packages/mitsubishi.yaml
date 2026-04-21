@@ -1,31 +1,26 @@
-# mitsubishi.yaml - Logic for Mitsubishi CN105 HVAC Control
-
-# Define the physical UART bus (The 'Vocal Cords' of the XIAO)
+# Define the physical UART bus
 uart:
   id: hp_uart
-  # These are the S3 hardware UART pins we discussed
-  tx_pin: GPIO43 # Pin D6
-  rx_pin: GPIO44 # Pin D7
+  tx_pin: GPIO43 # Physical Pin D6
+  rx_pin: GPIO44 # Physical Pin D7 (1k resistor goes here!)
   baud_rate: 2400
   stop_bits: 1
   data_bits: 8
   parity: NONE
 
-# Define the Climate Entity (The 'Brain' in Home Assistant)
+# Define the Climate Entity
 climate:
-  - platform: mitsubishi_cn105
+  - platform: cn105
+    id: hp
     name: "${friendly_name}"
     uart_id: hp_uart
-    # Optional: Exposes extra settings like horizontal/vertical vane control
-    supports:
-      - horizontal_vane
-      - vertical_vane
-    # Updates Home Assistant every 10 seconds with current temp/mode
+    # The echavet library handles vanes automatically
     update_interval: 10s
 
-# Optional: Add a sensor to track the specific HVAC stage (Heating/Cooling/Idle)
+# Sensor to track the specific HVAC action (Heating, Cooling, Idle)
 sensor:
   - platform: template
     name: "${friendly_name} Operating State"
     lambda: |-
-      return id(sun_porch_ac).action;
+      return id(hp).action;
+    update_interval: 10s
