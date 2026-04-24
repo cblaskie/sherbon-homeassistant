@@ -1,26 +1,68 @@
-# Define the physical UART bus
+# Define the physical UART bus (The 'Vocal Cords' of the XIAO)
 uart:
   id: hp_uart
-  tx_pin: GPIO43 # Physical Pin D6
-  rx_pin: GPIO44 # Physical Pin D7 (1k resistor goes here!)
+  tx_pin: GPIO43 # Pin D6
+  rx_pin: GPIO44 # Pin D7 (1k resistor MUST be here)
   baud_rate: 2400
   stop_bits: 1
   data_bits: 8
   parity: NONE
 
-# Define the Climate Entity
+# Define the Climate Entity (The 'Brain' in Home Assistant)
 climate:
   - platform: cn105
     id: hp
     name: "${friendly_name}"
     uart_id: hp_uart
-    # The echavet library handles vanes automatically
-    update_interval: 10s
+    icon: mdi:heat-pump
+    
+    # UI and Temperature scaling
+    visual:
+      min_temperature: 10 
+      max_temperature: 31
+      temperature_step:
+        target_temperature: 1
+        current_temperature: 0.5
+    
+    # Set to "standard" for better Home Assistant Fahrenheit support
+    fahrenheit_compatibility: "standard" 
+    
+    # Timeout and communication settings
+    remote_temperature_timeout: 30min
+    remote_temperature_keepalive_interval: 20s
+    update_interval: 2s
+    debounce_delay: 100ms
+    connection_bootstrap_delay: 30s
+    installer_mode: false
 
-# Sensor to track the specific HVAC action (Heating, Cooling, Idle)
+    # Vane Controls (Enabled both since your remote supports them)
+    vertical_vane_select:
+      name: "${friendly_name} Vertical Vane"
+      disabled_by_default: false
+    horizontal_vane_select:
+      name: "${friendly_name} Horizontal Vane"
+      disabled_by_default: false
+
+    # Capabilities support
+    supports:
+      dual_setpoint: false
+      mode: [AUTO, COOL, HEAT, DRY, FAN_ONLY]
+      fan_mode: [AUTO, QUIET, LOW, MEDIUM, HIGH]
+      swing_mode: ["OFF", VERTICAL, HORIZONTAL, BOTH]
+      horizontal_vane_mode: ["←←", "←", "|", "→", "→→", SWING]
+
+# Diagnostic Sensors
 sensor:
+  # Track specific HVAC stage (Heating/Cooling/Idle)
   - platform: template
     name: "${friendly_name} Operating State"
     lambda: |-
       return id(hp).action;
     update_interval: 10s
+
+  # Optional diagnostic sensor
+  - platform: cn105
+    compressor_frequency_sensor:
+      name: "${friendly_name} Compressor Frequency"
+      entity_category: diagnostic
+      disabled_by_default: true
