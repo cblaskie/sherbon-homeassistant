@@ -1,1 +1,25 @@
+# Core System Configurations
+default_config:
 
+# HTTP & Reverse Proxy Security Settings
+http:
+  use_x_forwarded_for: true
+  trusted_proxies:
+    - 172.16.0.0/12      # Standard Docker bridge subnet mask
+    - 172.32.0.0/11      # Expanded Docker container space (Fixes Traefik 502/Loops)
+    - 10.69.0.0/16       # Core local network infrastructure range
+    - 127.0.0.1          # Localhost loopback interface
+    - 10.69.30.2         # UniFi Gateway (IoT VLAN 30 interface)
+    - 10.69.1.100        # Main Unraid Server Management IP
+    - 172.31.0.1         # Static Gateway mapping for Primary Traefik Bridge
+    - 172.18.0.1         # Static Gateway mapping for Secondary Proxy Network
+
+# Advanced Logging & System Debugging
+logger:
+  default: info
+  logs:
+    homeassistant.components.http: debug
+
+# GitOps Automated Infrastructure Mounts
+shell_command:
+  mount_gitops_repo: "mount -t nfs -o rw,nolock,vers=3 10.69.30.2:/mnt/user/appdata/komodo/repos/sherbon-homeassistant /config/sherbon-homeassistant"
