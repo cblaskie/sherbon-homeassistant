@@ -1,25 +1,33 @@
-# Core System Configurations
+
+# Loads default set of integrations. Do not remove.
 default_config:
 
-# HTTP & Reverse Proxy Security Settings
-http:
-  use_x_forwarded_for: true
-  trusted_proxies:
-    - 172.16.0.0/12      # Standard Docker bridge subnet mask
-    - 172.32.0.0/11      # Expanded Docker container space (Fixes Traefik 502/Loops)
-    - 10.69.0.0/16       # Core local network infrastructure range
-    - 127.0.0.1          # Localhost loopback interface
-    - 10.69.30.2         # UniFi Gateway (IoT VLAN 30 interface)
-    - 10.69.1.100        # Main Unraid Server Management IP
-    - 172.31.0.1         # Static Gateway mapping for Primary Traefik Bridge
-    - 172.18.0.1         # Static Gateway mapping for Secondary Proxy Network
+# Load frontend themes from the themes folder
+frontend:
+  themes: !include_dir_merge_named themes
 
-# Advanced Logging & System Debugging
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
 logger:
   default: info
   logs:
     homeassistant.components.http: debug
 
-# GitOps Automated Infrastructure Mounts
+http:
+  use_x_forwarded_for: true
+  trusted_proxies:
+      - 10.69.0.0/16
+      - 172.16.0.0/12
+      - 172.32.0.0/11
+      - 127.0.0.1
+      - 10.69.30.1
+      - 172.31.0.1
+      - 172.18.0.1
+      - 10.69.1.100
+
 shell_command:
-  mount_gitops_repo: "mount -t nfs -o rw,nolock,vers=3 10.69.30.2:/mnt/user/appdata/komodo/repos/sherbon-homeassistant /config/sherbon-homeassistant"
+  mount_gitops_repo: >
+    mkdir -p /config/sherbon-homeassistant && 
+    mount -t nfs -o rw,nolock,vers=3 10.69.30.2:/mnt/user/appdata/komodo/repos/sherbon-homeassistant /config/sherbon-homeassistant
