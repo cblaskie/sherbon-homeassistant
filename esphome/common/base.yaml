@@ -1,5 +1,4 @@
 # base.yaml - Global Standards for Sherbon Home Ops
-
 # Core logging - essential for troubleshooting that -90dB signal
 logger:
   level: DEBUG
