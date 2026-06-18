@@ -1,0 +1,9 @@
+# Sherbon Ops: Main Lovelace Configuration Registry Map
+title: Sherbon Operations
+
+# Automatically pulls design blueprints and drop-shadow variables 
+button_card_templates: !include dashboards/templates.yaml
+
+views:
+  # Imports your core system section grid cards
+  - !include dashboards/main_view.yaml
