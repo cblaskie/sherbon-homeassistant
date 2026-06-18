@@ -1,0 +1,68 @@
+substitutions:
+  id_prefix: garage
+  friendly_name: "Garage"
+  # These are the magic pins for the v2.53i hardware
+  uart_tx_pin: D1
+  uart_rx_pin: D2
+  input_obst_pin: D7
+  status_door_pin: D0
+  status_obstruction_pin: D8
+  dry_contact_open_pin: D5
+  dry_contact_close_pin: D6
+  dry_contact_light_pin: D3
+
+esphome:
+  name: ${id_prefix}
+  friendly_name: ${friendly_name}
+  name_add_mac_suffix: true
+  project:
+    name: ratgdo.v25iboard_secplus2
+    version: "2.5i"
+
+esp8266:
+  board: d1_mini
+  restore_from_flash: true
+
+dashboard_import:
+  package_import_url: github://ratgdo/esphome-ratgdo/v25iboard.yaml@main
+
+packages:
+  remote_package:
+    url: https://github.com/ratgdo/esphome-ratgdo
+    ref: main
+    files: [base.yaml]
+    refresh: 1s
+
+web_server:
+  local: true
+  port: 80
+
+logger:
+
+api:
+  encryption:
+    key: "y0S+T3+T4S7bWmVXU/N65pey/pHaJuIuDo23yPkPcXY="
+
+ota:
+  - platform: esphome
+    password: "00dd1eebc44032df4fda684df601fe25"
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+  min_auth_mode: WPA2
+  # This section must be indented inside wifi:
+  manual_ip:
+    static_ip: 10.69.30.20
+    gateway: 10.69.30.1
+    subnet: 255.255.255.0
+
+  ap:
+    ssid: "Ratgdo"
+    password: "Barnacle14"
+
+captive_portal:
+
+time:
+  - platform: homeassistant
+    id: homeassistant_time

@@ -1,0 +1,11 @@
+# Sherbon Ops: Master View Layout
+title: Sherbon Operations
+views:
+  - title: Hub
+    path: hub
+    type: sections
+    sections:
+      - title: System Overview
+        cards:
+          - type: heading
+            title: GitOps Synced Natively
