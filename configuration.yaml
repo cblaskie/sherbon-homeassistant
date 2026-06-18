@@ -28,3 +28,20 @@ http:
 
 shell_command:
   gitops_pull: 'git config core.sshCommand "ssh -F /config/.ssh/config" && git pull origin main'
+
+# Frontend UI Registry Linkage for Code-Driven Dashboards
+lovelace:
+  mode: yaml
+  dashboards:
+    vault-cockpit:
+      mode: yaml
+      title: Vault Cockpit
+      icon: mdi:server-network
+      show_in_sidebar: true
+      filename: dashboards/vault_cockpit.yaml
+    house-command:
+      mode: yaml
+      title: House Command
+      icon: mdi:home-assistant
+      show_in_sidebar: true
+      filename: dashboards/house_command.yaml
