@@ -27,8 +27,8 @@ http:
     - 10.69.1.100
 
 shell_command:
-  gitops_pull: 'git config core.sshCommand "ssh -F /config/.ssh/config" && git pull origin main'
-
+  gitops_pull: 'cd /config && git config core.sshCommand "ssh -F /config/.ssh/config" && git fetch origin main && git reset --hard origin/main'
+  
 # Frontend UI Registry Linkage for Code-Driven Dashboards
 lovelace:
   dashboards:

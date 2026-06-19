@@ -1,11 +1,28 @@
-# Secrets
+# 1. Ignore everything by default
+/*
+
+# 2. Whitelist the folders/files we WANT to sync
+!/.gitignore
+!/README.md
+!/configuration.yaml
+!/automations.yaml
+!/scripts.yaml
+!/scenes.yaml
+!/esphome/
+!/esphome/**
+!/dashboards/
+!/dashboards/**
+!/themes/
+!/themes/**
+
+# 3. Explicitly ensure secrets and system cruft are ALWAYS ignored
+.storage/
+*.db
+*.db-shm
+*.db-wal
+*.log*
 secrets.yaml
-
-# ESPHome Build artifacts
-.esphome/
-.temp/
-*.bin
-
-# OS files
-.DS_Store
-Thumbs.db
+.ssh/
+*.pem
+*.key.storage/
+*.db
