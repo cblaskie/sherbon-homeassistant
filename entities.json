@@ -1,0 +1,2858 @@
+[
+  {
+    "entity_id": "binary_sensor.sun_solar_rising",
+    "name": null,
+    "platform": "sun",
+    "unique_id": "01KF3ZK0BKG7J1YGFQ4ZZDKYYS-solar_rising"
+  },
+  {
+    "entity_id": "sensor.sun_next_dawn",
+    "name": null,
+    "platform": "sun",
+    "unique_id": "01KF3ZK0BKG7J1YGFQ4ZZDKYYS-next_dawn"
+  },
+  {
+    "entity_id": "sensor.sun_next_dusk",
+    "name": null,
+    "platform": "sun",
+    "unique_id": "01KF3ZK0BKG7J1YGFQ4ZZDKYYS-next_dusk"
+  },
+  {
+    "entity_id": "sensor.sun_next_midnight",
+    "name": null,
+    "platform": "sun",
+    "unique_id": "01KF3ZK0BKG7J1YGFQ4ZZDKYYS-next_midnight"
+  },
+  {
+    "entity_id": "sensor.sun_next_noon",
+    "name": null,
+    "platform": "sun",
+    "unique_id": "01KF3ZK0BKG7J1YGFQ4ZZDKYYS-next_noon"
+  },
+  {
+    "entity_id": "sensor.sun_next_rising",
+    "name": null,
+    "platform": "sun",
+    "unique_id": "01KF3ZK0BKG7J1YGFQ4ZZDKYYS-next_rising"
+  },
+  {
+    "entity_id": "sensor.sun_next_setting",
+    "name": null,
+    "platform": "sun",
+    "unique_id": "01KF3ZK0BKG7J1YGFQ4ZZDKYYS-next_setting"
+  },
+  {
+    "entity_id": "sensor.sun_solar_elevation",
+    "name": null,
+    "platform": "sun",
+    "unique_id": "01KF3ZK0BKG7J1YGFQ4ZZDKYYS-solar_elevation"
+  },
+  {
+    "entity_id": "sensor.sun_solar_azimuth",
+    "name": null,
+    "platform": "sun",
+    "unique_id": "01KF3ZK0BKG7J1YGFQ4ZZDKYYS-solar_azimuth"
+  },
+  {
+    "entity_id": "event.backup_automatic_backup",
+    "name": null,
+    "platform": "backup",
+    "unique_id": "automatic_backup_event"
+  },
+  {
+    "entity_id": "sensor.backup_backup_manager_state",
+    "name": null,
+    "platform": "backup",
+    "unique_id": "backup_manager_state"
+  },
+  {
+    "entity_id": "sensor.backup_next_scheduled_automatic_backup",
+    "name": null,
+    "platform": "backup",
+    "unique_id": "next_scheduled_automatic_backup"
+  },
+  {
+    "entity_id": "sensor.backup_last_successful_automatic_backup",
+    "name": null,
+    "platform": "backup",
+    "unique_id": "last_successful_automatic_backup"
+  },
+  {
+    "entity_id": "sensor.backup_last_attempted_automatic_backup",
+    "name": null,
+    "platform": "backup",
+    "unique_id": "last_attempted_automatic_backup"
+  },
+  {
+    "entity_id": "sensor.home_assistant_core_cpu_percent",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "home_assistant_core_cpu_percent"
+  },
+  {
+    "entity_id": "sensor.home_assistant_core_memory_percent",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "home_assistant_core_memory_percent"
+  },
+  {
+    "entity_id": "sensor.home_assistant_supervisor_cpu_percent",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "home_assistant_supervisor_cpu_percent"
+  },
+  {
+    "entity_id": "sensor.home_assistant_supervisor_memory_percent",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "home_assistant_supervisor_memory_percent"
+  },
+  {
+    "entity_id": "sensor.home_assistant_host_os_agent_version",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "home_assistant_host_agent_version"
+  },
+  {
+    "entity_id": "sensor.home_assistant_host_apparmor_version",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "home_assistant_host_apparmor_version"
+  },
+  {
+    "entity_id": "sensor.home_assistant_host_disk_total",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "home_assistant_host_disk_total"
+  },
+  {
+    "entity_id": "sensor.home_assistant_host_disk_used",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "home_assistant_host_disk_used"
+  },
+  {
+    "entity_id": "sensor.home_assistant_host_disk_free",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "home_assistant_host_disk_free"
+  },
+  {
+    "entity_id": "sensor.home_assistant_operating_system_version",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "home_assistant_os_version"
+  },
+  {
+    "entity_id": "sensor.home_assistant_operating_system_newest_version",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "home_assistant_os_version_latest"
+  },
+  {
+    "entity_id": "update.home_assistant_supervisor_update",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "home_assistant_supervisor_version_latest"
+  },
+  {
+    "entity_id": "update.home_assistant_core_update",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "home_assistant_core_version_latest"
+  },
+  {
+    "entity_id": "update.home_assistant_operating_system_update",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "home_assistant_os_version_latest"
+  },
+  {
+    "entity_id": "media_player.deck",
+    "name": null,
+    "platform": "cast",
+    "unique_id": "0de141cf-537e-72f6-0306-2dd339970344"
+  },
+  {
+    "entity_id": "person.corey_blaskie",
+    "name": null,
+    "platform": "person",
+    "unique_id": "corey_blaskie"
+  },
+  {
+    "entity_id": "todo.shopping_list",
+    "name": null,
+    "platform": "shopping_list",
+    "unique_id": "01KF3ZQBSG4NXQXN9D1AKBZK33"
+  },
+  {
+    "entity_id": "tts.google_translate_en_com",
+    "name": null,
+    "platform": "google_translate",
+    "unique_id": "01KF3ZQBXQXE3M5HHFXBVNF9SW"
+  },
+  {
+    "entity_id": "weather.forecast_home",
+    "name": null,
+    "platform": "met",
+    "unique_id": "home"
+  },
+  {
+    "entity_id": "sensor.800_series_long_range_usb_controller_status",
+    "name": null,
+    "platform": "zwave_js",
+    "unique_id": "3442239383.1.controller_status"
+  },
+  {
+    "entity_id": "sensor.800_series_long_range_usb_controller_successful_messages_tx",
+    "name": null,
+    "platform": "zwave_js",
+    "unique_id": "3442239383.1.statistics_messages_tx"
+  },
+  {
+    "entity_id": "sensor.800_series_long_range_usb_controller_successful_messages_rx",
+    "name": null,
+    "platform": "zwave_js",
+    "unique_id": "3442239383.1.statistics_messages_rx"
+  },
+  {
+    "entity_id": "sensor.800_series_long_range_usb_controller_messages_dropped_tx",
+    "name": null,
+    "platform": "zwave_js",
+    "unique_id": "3442239383.1.statistics_messages_dropped_tx"
+  },
+  {
+    "entity_id": "sensor.800_series_long_range_usb_controller_messages_dropped_rx",
+    "name": null,
+    "platform": "zwave_js",
+    "unique_id": "3442239383.1.statistics_messages_dropped_rx"
+  },
+  {
+    "entity_id": "sensor.800_series_long_range_usb_controller_messages_not_accepted",
+    "name": null,
+    "platform": "zwave_js",
+    "unique_id": "3442239383.1.statistics_nak"
+  },
+  {
+    "entity_id": "sensor.800_series_long_range_usb_controller_collisions",
+    "name": null,
+    "platform": "zwave_js",
+    "unique_id": "3442239383.1.statistics_can"
+  },
+  {
+    "entity_id": "sensor.800_series_long_range_usb_controller_missing_acks",
+    "name": null,
+    "platform": "zwave_js",
+    "unique_id": "3442239383.1.statistics_timeout_ack"
+  },
+  {
+    "entity_id": "sensor.800_series_long_range_usb_controller_timed_out_responses",
+    "name": null,
+    "platform": "zwave_js",
+    "unique_id": "3442239383.1.statistics_timeout_response"
+  },
+  {
+    "entity_id": "sensor.800_series_long_range_usb_controller_timed_out_callbacks",
+    "name": null,
+    "platform": "zwave_js",
+    "unique_id": "3442239383.1.statistics_timeout_callback"
+  },
+  {
+    "entity_id": "sensor.800_series_long_range_usb_controller_avg_signal_noise_channel_0",
+    "name": null,
+    "platform": "zwave_js",
+    "unique_id": "3442239383.1.statistics_background_rssi.channel_0.average"
+  },
+  {
+    "entity_id": "sensor.800_series_long_range_usb_controller_signal_noise_channel_0",
+    "name": null,
+    "platform": "zwave_js",
+    "unique_id": "3442239383.1.statistics_background_rssi.channel_0.current"
+  },
+  {
+    "entity_id": "sensor.800_series_long_range_usb_controller_avg_signal_noise_channel_1",
+    "name": null,
+    "platform": "zwave_js",
+    "unique_id": "3442239383.1.statistics_background_rssi.channel_1.average"
+  },
+  {
+    "entity_id": "sensor.800_series_long_range_usb_controller_signal_noise_channel_1",
+    "name": null,
+    "platform": "zwave_js",
+    "unique_id": "3442239383.1.statistics_background_rssi.channel_1.current"
+  },
+  {
+    "entity_id": "sensor.800_series_long_range_usb_controller_avg_signal_noise_channel_2",
+    "name": null,
+    "platform": "zwave_js",
+    "unique_id": "3442239383.1.statistics_background_rssi.channel_2.average"
+  },
+  {
+    "entity_id": "sensor.800_series_long_range_usb_controller_signal_noise_channel_2",
+    "name": null,
+    "platform": "zwave_js",
+    "unique_id": "3442239383.1.statistics_background_rssi.channel_2.current"
+  },
+  {
+    "entity_id": "sensor.800_series_long_range_usb_controller_avg_signal_noise_channel_3",
+    "name": null,
+    "platform": "zwave_js",
+    "unique_id": "3442239383.1.statistics_background_rssi.channel_3.average"
+  },
+  {
+    "entity_id": "sensor.800_series_long_range_usb_controller_signal_noise_channel_3",
+    "name": null,
+    "platform": "zwave_js",
+    "unique_id": "3442239383.1.statistics_background_rssi.channel_3.current"
+  },
+  {
+    "entity_id": "update.800_series_long_range_usb_controller_firmware",
+    "name": null,
+    "platform": "zwave_js",
+    "unique_id": "3442239383.1.firmware_update"
+  },
+  {
+    "entity_id": "sensor.node_5_node_status",
+    "name": null,
+    "platform": "zwave_js",
+    "unique_id": "3442239383.5.node_status"
+  },
+  {
+    "entity_id": "button.node_5_ping",
+    "name": null,
+    "platform": "zwave_js",
+    "unique_id": "3442239383.5.ping"
+  },
+  {
+    "entity_id": "sensor.node_5_successful_commands_rx",
+    "name": null,
+    "platform": "zwave_js",
+    "unique_id": "3442239383.5.statistics_commands_rx"
+  },
+  {
+    "entity_id": "sensor.node_5_successful_commands_tx",
+    "name": null,
+    "platform": "zwave_js",
+    "unique_id": "3442239383.5.statistics_commands_tx"
+  },
+  {
+    "entity_id": "sensor.node_5_commands_dropped_rx",
+    "name": null,
+    "platform": "zwave_js",
+    "unique_id": "3442239383.5.statistics_commands_dropped_rx"
+  },
+  {
+    "entity_id": "sensor.node_5_commands_dropped_tx",
+    "name": null,
+    "platform": "zwave_js",
+    "unique_id": "3442239383.5.statistics_commands_dropped_tx"
+  },
+  {
+    "entity_id": "sensor.node_5_timed_out_responses",
+    "name": null,
+    "platform": "zwave_js",
+    "unique_id": "3442239383.5.statistics_timeout_response"
+  },
+  {
+    "entity_id": "sensor.node_5_round_trip_time",
+    "name": null,
+    "platform": "zwave_js",
+    "unique_id": "3442239383.5.statistics_rtt"
+  },
+  {
+    "entity_id": "sensor.node_5_signal_strength",
+    "name": null,
+    "platform": "zwave_js",
+    "unique_id": "3442239383.5.statistics_rssi"
+  },
+  {
+    "entity_id": "sensor.node_5_last_seen",
+    "name": null,
+    "platform": "zwave_js",
+    "unique_id": "3442239383.5.statistics_last_seen"
+  },
+  {
+    "entity_id": "binary_sensor.z_wave_js_running",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "core_zwave_js_state"
+  },
+  {
+    "entity_id": "sensor.z_wave_js_version",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "core_zwave_js_version"
+  },
+  {
+    "entity_id": "sensor.z_wave_js_newest_version",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "core_zwave_js_version_latest"
+  },
+  {
+    "entity_id": "sensor.z_wave_js_cpu_percent",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "core_zwave_js_cpu_percent"
+  },
+  {
+    "entity_id": "sensor.z_wave_js_memory_percent",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "core_zwave_js_memory_percent"
+  },
+  {
+    "entity_id": "switch.z_wave_js",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "core_zwave_js_state"
+  },
+  {
+    "entity_id": "update.z_wave_js_update",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "core_zwave_js_version_latest"
+  },
+  {
+    "entity_id": "person.lauren_blaskie",
+    "name": null,
+    "platform": "person",
+    "unique_id": "lauren_blaskie"
+  },
+  {
+    "entity_id": "person.lenora_blaskie",
+    "name": null,
+    "platform": "person",
+    "unique_id": "lenora_blaskie"
+  },
+  {
+    "entity_id": "person.obie_blaskie",
+    "name": null,
+    "platform": "person",
+    "unique_id": "obie_blaskie"
+  },
+  {
+    "entity_id": "binary_sensor.esphome_device_builder_running",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "5c53de3b_esphome_state"
+  },
+  {
+    "entity_id": "sensor.esphome_device_builder_version",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "5c53de3b_esphome_version"
+  },
+  {
+    "entity_id": "sensor.esphome_device_builder_newest_version",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "5c53de3b_esphome_version_latest"
+  },
+  {
+    "entity_id": "sensor.esphome_device_builder_cpu_percent",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "5c53de3b_esphome_cpu_percent"
+  },
+  {
+    "entity_id": "sensor.esphome_device_builder_memory_percent",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "5c53de3b_esphome_memory_percent"
+  },
+  {
+    "entity_id": "switch.esphome_device_builder",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "5c53de3b_esphome_state"
+  },
+  {
+    "entity_id": "update.esphome_device_builder_update",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "5c53de3b_esphome_version_latest"
+  },
+  {
+    "entity_id": "zone.work_corey",
+    "name": null,
+    "platform": "zone",
+    "unique_id": "work_corey"
+  },
+  {
+    "entity_id": "device_tracker.corey_s_ipad",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "85FB46DE-311A-4CD0-806A-88299E9F3FB5"
+  },
+  {
+    "entity_id": "binary_sensor.get_hacs_running",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "cb646a50_get_state"
+  },
+  {
+    "entity_id": "sensor.get_hacs_version",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "cb646a50_get_version"
+  },
+  {
+    "entity_id": "sensor.get_hacs_newest_version",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "cb646a50_get_version_latest"
+  },
+  {
+    "entity_id": "sensor.get_hacs_cpu_percent",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "cb646a50_get_cpu_percent"
+  },
+  {
+    "entity_id": "sensor.get_hacs_memory_percent",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "cb646a50_get_memory_percent"
+  },
+  {
+    "entity_id": "switch.get_hacs",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "cb646a50_get_state"
+  },
+  {
+    "entity_id": "update.get_hacs_update",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "cb646a50_get_version_latest"
+  },
+  {
+    "entity_id": "update.hacs_update",
+    "name": null,
+    "platform": "hacs",
+    "unique_id": "172733314"
+  },
+  {
+    "entity_id": "update.c_a_f_e_update",
+    "name": null,
+    "platform": "hacs",
+    "unique_id": "1130928743"
+  },
+  {
+    "entity_id": "switch.c_a_f_e_pre_release",
+    "name": null,
+    "platform": "hacs",
+    "unique_id": "1130928743"
+  },
+  {
+    "entity_id": "switch.hacs_pre_release",
+    "name": null,
+    "platform": "hacs",
+    "unique_id": "172733314"
+  },
+  {
+    "entity_id": "update.duke_energy_update",
+    "name": null,
+    "platform": "hacs",
+    "unique_id": "1132477918"
+  },
+  {
+    "entity_id": "update.meross_lan_update",
+    "name": null,
+    "platform": "hacs",
+    "unique_id": "341500126"
+  },
+  {
+    "entity_id": "switch.meross_lan_pre_release",
+    "name": null,
+    "platform": "hacs",
+    "unique_id": "341500126"
+  },
+  {
+    "entity_id": "switch.duke_energy_pre_release",
+    "name": null,
+    "platform": "hacs",
+    "unique_id": "1132477918"
+  },
+  {
+    "entity_id": "camera.front_door_live_view",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "90688127-live_view"
+  },
+  {
+    "entity_id": "camera.deck_live_view",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "90763668-live_view"
+  },
+  {
+    "entity_id": "camera.garden_live_view",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "92205195-live_view"
+  },
+  {
+    "entity_id": "camera.lenora_cam_live_view",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "91793461-live_view"
+  },
+  {
+    "entity_id": "event.front_door_ding",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "90688127-ding"
+  },
+  {
+    "entity_id": "event.deck_motion",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "90763668-motion"
+  },
+  {
+    "entity_id": "event.garden_motion",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "92205195-motion"
+  },
+  {
+    "entity_id": "event.lenora_cam_motion",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "91793461-motion"
+  },
+  {
+    "entity_id": "event.front_door_motion",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "90688127-motion"
+  },
+  {
+    "entity_id": "light.deck_light",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "90763668"
+  },
+  {
+    "entity_id": "light.garden_light",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "92205195"
+  },
+  {
+    "entity_id": "number.sun_porch_volume",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "92063764-volume"
+  },
+  {
+    "entity_id": "number.deck_volume",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "90763668-volume"
+  },
+  {
+    "entity_id": "number.garden_volume",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "92205195-volume"
+  },
+  {
+    "entity_id": "number.lenora_cam_volume",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "91793461-volume"
+  },
+  {
+    "entity_id": "number.front_door_volume",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "90688127-volume"
+  },
+  {
+    "entity_id": "sensor.deck_battery",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "90763668-battery"
+  },
+  {
+    "entity_id": "sensor.garden_battery",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "92205195-battery"
+  },
+  {
+    "entity_id": "sensor.lenora_cam_battery",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "91793461-battery"
+  },
+  {
+    "entity_id": "sensor.front_door_battery",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "90688127-battery"
+  },
+  {
+    "entity_id": "sensor.deck_last_activity",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "90763668-last_activity"
+  },
+  {
+    "entity_id": "sensor.garden_last_activity",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "92205195-last_activity"
+  },
+  {
+    "entity_id": "sensor.lenora_cam_last_activity",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "91793461-last_activity"
+  },
+  {
+    "entity_id": "sensor.front_door_last_activity",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "90688127-last_activity"
+  },
+  {
+    "entity_id": "sensor.deck_wi_fi_signal_category",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "90763668-wifi_signal_category"
+  },
+  {
+    "entity_id": "sensor.garden_wi_fi_signal_category",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "92205195-wifi_signal_category"
+  },
+  {
+    "entity_id": "sensor.lenora_cam_wi_fi_signal_category",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "91793461-wifi_signal_category"
+  },
+  {
+    "entity_id": "sensor.sun_porch_wi_fi_signal_category",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "92063764-wifi_signal_category"
+  },
+  {
+    "entity_id": "sensor.front_door_wi_fi_signal_category",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "90688127-wifi_signal_category"
+  },
+  {
+    "entity_id": "sensor.deck_signal_strength",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "90763668-wifi_signal_strength"
+  },
+  {
+    "entity_id": "sensor.garden_signal_strength",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "92205195-wifi_signal_strength"
+  },
+  {
+    "entity_id": "sensor.lenora_cam_signal_strength",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "91793461-wifi_signal_strength"
+  },
+  {
+    "entity_id": "sensor.sun_porch_signal_strength",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "92063764-wifi_signal_strength"
+  },
+  {
+    "entity_id": "sensor.front_door_signal_strength",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "90688127-wifi_signal_strength"
+  },
+  {
+    "entity_id": "siren.deck_siren",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "90763668"
+  },
+  {
+    "entity_id": "siren.garden_siren",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "92205195"
+  },
+  {
+    "entity_id": "siren.lenora_cam_siren",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "91793461"
+  },
+  {
+    "entity_id": "siren.sun_porch_siren",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "92063764-siren"
+  },
+  {
+    "entity_id": "switch.front_door_in_home_chime",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "90688127-in_home_chime"
+  },
+  {
+    "entity_id": "switch.deck_motion_detection",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "90763668-motion_detection"
+  },
+  {
+    "entity_id": "switch.garden_motion_detection",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "92205195-motion_detection"
+  },
+  {
+    "entity_id": "switch.lenora_cam_motion_detection",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "91793461-motion_detection"
+  },
+  {
+    "entity_id": "switch.front_door_motion_detection",
+    "name": null,
+    "platform": "ring",
+    "unique_id": "90688127-motion_detection"
+  },
+  {
+    "entity_id": "switch.adguard_home_protection",
+    "name": null,
+    "platform": "adguard",
+    "unique_id": "adguard_10.69.1.51_3000_switch_protection"
+  },
+  {
+    "entity_id": "sensor.adguard_home_dns_queries_blocked_ratio",
+    "name": null,
+    "platform": "adguard",
+    "unique_id": "adguard_10.69.1.51_3000_sensor_blocked_percentage"
+  },
+  {
+    "entity_id": "sensor.adguard_home_dns_queries",
+    "name": null,
+    "platform": "adguard",
+    "unique_id": "adguard_10.69.1.51_3000_sensor_dns_queries"
+  },
+  {
+    "entity_id": "sensor.adguard_home_parental_control_blocked",
+    "name": null,
+    "platform": "adguard",
+    "unique_id": "adguard_10.69.1.51_3000_sensor_blocked_parental"
+  },
+  {
+    "entity_id": "sensor.adguard_home_dns_queries_blocked",
+    "name": null,
+    "platform": "adguard",
+    "unique_id": "adguard_10.69.1.51_3000_sensor_blocked_filtering"
+  },
+  {
+    "entity_id": "switch.adguard_home_parental_control",
+    "name": null,
+    "platform": "adguard",
+    "unique_id": "adguard_10.69.1.51_3000_switch_parental"
+  },
+  {
+    "entity_id": "sensor.adguard_home_rules_count",
+    "name": null,
+    "platform": "adguard",
+    "unique_id": "adguard_10.69.1.51_3000_sensor_rules_count"
+  },
+  {
+    "entity_id": "sensor.adguard_home_safe_searches_enforced",
+    "name": null,
+    "platform": "adguard",
+    "unique_id": "adguard_10.69.1.51_3000_sensor_enforced_safesearch"
+  },
+  {
+    "entity_id": "sensor.adguard_home_safe_browsing_blocked",
+    "name": null,
+    "platform": "adguard",
+    "unique_id": "adguard_10.69.1.51_3000_sensor_blocked_safebrowsing"
+  },
+  {
+    "entity_id": "sensor.adguard_home_average_processing_speed",
+    "name": null,
+    "platform": "adguard",
+    "unique_id": "adguard_10.69.1.51_3000_sensor_average_speed"
+  },
+  {
+    "entity_id": "switch.adguard_home_safe_search",
+    "name": null,
+    "platform": "adguard",
+    "unique_id": "adguard_10.69.1.51_3000_switch_safesearch"
+  },
+  {
+    "entity_id": "switch.adguard_home_safe_browsing",
+    "name": null,
+    "platform": "adguard",
+    "unique_id": "adguard_10.69.1.51_3000_switch_safebrowsing"
+  },
+  {
+    "entity_id": "switch.adguard_home_filtering",
+    "name": null,
+    "platform": "adguard",
+    "unique_id": "adguard_10.69.1.51_3000_switch_filtering"
+  },
+  {
+    "entity_id": "switch.adguard_home_query_log",
+    "name": null,
+    "platform": "adguard",
+    "unique_id": "adguard_10.69.1.51_3000_switch_querylog"
+  },
+  {
+    "entity_id": "device_tracker.coreys_iphone",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "889B6925-28C8-4851-889C-E7C5EA0AAF1B"
+  },
+  {
+    "entity_id": "sensor.coreys_iphone_activity",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b9c698afd4886c777a9fff2d0bd61cbf8285f3dddc1109a41a8afba70dd3301d_activity"
+  },
+  {
+    "entity_id": "sensor.coreys_iphone_distance",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b9c698afd4886c777a9fff2d0bd61cbf8285f3dddc1109a41a8afba70dd3301d_pedometer_distance"
+  },
+  {
+    "entity_id": "sensor.coreys_iphone_floors_ascended",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b9c698afd4886c777a9fff2d0bd61cbf8285f3dddc1109a41a8afba70dd3301d_pedometer_floors_ascended"
+  },
+  {
+    "entity_id": "sensor.coreys_iphone_battery_level",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b9c698afd4886c777a9fff2d0bd61cbf8285f3dddc1109a41a8afba70dd3301d_battery_level"
+  },
+  {
+    "entity_id": "sensor.coreys_iphone_floors_descended",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b9c698afd4886c777a9fff2d0bd61cbf8285f3dddc1109a41a8afba70dd3301d_pedometer_floors_descended"
+  },
+  {
+    "entity_id": "sensor.coreys_iphone_steps",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b9c698afd4886c777a9fff2d0bd61cbf8285f3dddc1109a41a8afba70dd3301d_pedometer_steps"
+  },
+  {
+    "entity_id": "sensor.coreys_iphone_battery_state",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b9c698afd4886c777a9fff2d0bd61cbf8285f3dddc1109a41a8afba70dd3301d_battery_state"
+  },
+  {
+    "entity_id": "sensor.coreys_iphone_average_active_pace",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b9c698afd4886c777a9fff2d0bd61cbf8285f3dddc1109a41a8afba70dd3301d_pedometer_avg_active_pace"
+  },
+  {
+    "entity_id": "sensor.coreys_iphone_storage",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b9c698afd4886c777a9fff2d0bd61cbf8285f3dddc1109a41a8afba70dd3301d_storage"
+  },
+  {
+    "entity_id": "sensor.coreys_iphone_ssid",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b9c698afd4886c777a9fff2d0bd61cbf8285f3dddc1109a41a8afba70dd3301d_connectivity_ssid"
+  },
+  {
+    "entity_id": "sensor.coreys_iphone_bssid",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b9c698afd4886c777a9fff2d0bd61cbf8285f3dddc1109a41a8afba70dd3301d_connectivity_bssid"
+  },
+  {
+    "entity_id": "sensor.coreys_iphone_connection_type",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b9c698afd4886c777a9fff2d0bd61cbf8285f3dddc1109a41a8afba70dd3301d_connectivity_connection_type"
+  },
+  {
+    "entity_id": "sensor.coreys_iphone_sim_1",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b9c698afd4886c777a9fff2d0bd61cbf8285f3dddc1109a41a8afba70dd3301d_connectivity_sim_1"
+  },
+  {
+    "entity_id": "sensor.coreys_iphone_sim_2",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b9c698afd4886c777a9fff2d0bd61cbf8285f3dddc1109a41a8afba70dd3301d_connectivity_sim_2"
+  },
+  {
+    "entity_id": "sensor.coreys_iphone_geocoded_location",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b9c698afd4886c777a9fff2d0bd61cbf8285f3dddc1109a41a8afba70dd3301d_geocoded_location"
+  },
+  {
+    "entity_id": "binary_sensor.coreys_iphone_focus",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b9c698afd4886c777a9fff2d0bd61cbf8285f3dddc1109a41a8afba70dd3301d_focus"
+  },
+  {
+    "entity_id": "sensor.coreys_iphone_last_update_trigger",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b9c698afd4886c777a9fff2d0bd61cbf8285f3dddc1109a41a8afba70dd3301d_last_update_trigger"
+  },
+  {
+    "entity_id": "sensor.coreys_iphone_app_version",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b9c698afd4886c777a9fff2d0bd61cbf8285f3dddc1109a41a8afba70dd3301d_app-version"
+  },
+  {
+    "entity_id": "sensor.coreys_iphone_location_permission",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b9c698afd4886c777a9fff2d0bd61cbf8285f3dddc1109a41a8afba70dd3301d_location-permission"
+  },
+  {
+    "entity_id": "sensor.coreys_iphone_audio_output",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b9c698afd4886c777a9fff2d0bd61cbf8285f3dddc1109a41a8afba70dd3301d_iphone-audio-output"
+  },
+  {
+    "entity_id": "update.atomic_calendar_revive_update",
+    "name": null,
+    "platform": "hacs",
+    "unique_id": "246549747"
+  },
+  {
+    "entity_id": "update.bubble_card_update",
+    "name": null,
+    "platform": "hacs",
+    "unique_id": "680112919"
+  },
+  {
+    "entity_id": "update.team_tracker_update",
+    "name": null,
+    "platform": "hacs",
+    "unique_id": "524730333"
+  },
+  {
+    "entity_id": "update.kiosk_mode_update",
+    "name": null,
+    "platform": "hacs",
+    "unique_id": "497319128"
+  },
+  {
+    "entity_id": "update.resmed_myair_cpap_sensors_update",
+    "name": null,
+    "platform": "hacs",
+    "unique_id": "443221313"
+  },
+  {
+    "entity_id": "update.wiim_audio_linkplay_update",
+    "name": null,
+    "platform": "hacs",
+    "unique_id": "989080760"
+  },
+  {
+    "entity_id": "binary_sensor.advanced_ssh_web_terminal_running",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "a0d7b954_ssh_state"
+  },
+  {
+    "entity_id": "sensor.advanced_ssh_web_terminal_version",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "a0d7b954_ssh_version"
+  },
+  {
+    "entity_id": "sensor.advanced_ssh_web_terminal_newest_version",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "a0d7b954_ssh_version_latest"
+  },
+  {
+    "entity_id": "sensor.advanced_ssh_web_terminal_cpu_percent",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "a0d7b954_ssh_cpu_percent"
+  },
+  {
+    "entity_id": "sensor.advanced_ssh_web_terminal_memory_percent",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "a0d7b954_ssh_memory_percent"
+  },
+  {
+    "entity_id": "switch.advanced_ssh_web_terminal",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "a0d7b954_ssh_state"
+  },
+  {
+    "entity_id": "update.advanced_ssh_web_terminal_update",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "a0d7b954_ssh_version_latest"
+  },
+  {
+    "entity_id": "switch.wiim_audio_linkplay_pre_release",
+    "name": null,
+    "platform": "hacs",
+    "unique_id": "989080760"
+  },
+  {
+    "entity_id": "switch.resmed_myair_cpap_sensors_pre_release",
+    "name": null,
+    "platform": "hacs",
+    "unique_id": "443221313"
+  },
+  {
+    "entity_id": "switch.team_tracker_pre_release",
+    "name": null,
+    "platform": "hacs",
+    "unique_id": "524730333"
+  },
+  {
+    "entity_id": "switch.kiosk_mode_pre_release",
+    "name": null,
+    "platform": "hacs",
+    "unique_id": "497319128"
+  },
+  {
+    "entity_id": "switch.bubble_card_pre_release",
+    "name": null,
+    "platform": "hacs",
+    "unique_id": "680112919"
+  },
+  {
+    "entity_id": "switch.atomic_calendar_revive_pre_release",
+    "name": null,
+    "platform": "hacs",
+    "unique_id": "246549747"
+  },
+  {
+    "entity_id": "binary_sensor.claude_code_running",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "1016f397_claudecode_state"
+  },
+  {
+    "entity_id": "sensor.claude_code_version",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "1016f397_claudecode_version"
+  },
+  {
+    "entity_id": "sensor.claude_code_newest_version",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "1016f397_claudecode_version_latest"
+  },
+  {
+    "entity_id": "sensor.claude_code_cpu_percent",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "1016f397_claudecode_cpu_percent"
+  },
+  {
+    "entity_id": "sensor.claude_code_memory_percent",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "1016f397_claudecode_memory_percent"
+  },
+  {
+    "entity_id": "switch.claude_code",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "1016f397_claudecode_state"
+  },
+  {
+    "entity_id": "update.claude_code_update",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "1016f397_claudecode_version_latest"
+  },
+  {
+    "entity_id": "sensor.corey_s_ipad_activity",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b210b42650d5d672673275e83e32a4ad64a4642f2c956488274737d8719a5518_activity"
+  },
+  {
+    "entity_id": "sensor.corey_s_ipad_battery_level",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b210b42650d5d672673275e83e32a4ad64a4642f2c956488274737d8719a5518_battery_level"
+  },
+  {
+    "entity_id": "sensor.corey_s_ipad_storage",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b210b42650d5d672673275e83e32a4ad64a4642f2c956488274737d8719a5518_storage"
+  },
+  {
+    "entity_id": "sensor.corey_s_ipad_battery_state",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b210b42650d5d672673275e83e32a4ad64a4642f2c956488274737d8719a5518_battery_state"
+  },
+  {
+    "entity_id": "sensor.corey_s_ipad_connection_type",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b210b42650d5d672673275e83e32a4ad64a4642f2c956488274737d8719a5518_connectivity_connection_type"
+  },
+  {
+    "entity_id": "binary_sensor.corey_s_ipad_focus",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b210b42650d5d672673275e83e32a4ad64a4642f2c956488274737d8719a5518_focus"
+  },
+  {
+    "entity_id": "sensor.corey_s_ipad_bssid",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b210b42650d5d672673275e83e32a4ad64a4642f2c956488274737d8719a5518_connectivity_bssid"
+  },
+  {
+    "entity_id": "sensor.corey_s_ipad_ssid",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b210b42650d5d672673275e83e32a4ad64a4642f2c956488274737d8719a5518_connectivity_ssid"
+  },
+  {
+    "entity_id": "sensor.corey_s_ipad_app_version",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b210b42650d5d672673275e83e32a4ad64a4642f2c956488274737d8719a5518_app-version"
+  },
+  {
+    "entity_id": "sensor.corey_s_ipad_last_update_trigger",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b210b42650d5d672673275e83e32a4ad64a4642f2c956488274737d8719a5518_last_update_trigger"
+  },
+  {
+    "entity_id": "sensor.corey_s_ipad_location_permission",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b210b42650d5d672673275e83e32a4ad64a4642f2c956488274737d8719a5518_location-permission"
+  },
+  {
+    "entity_id": "sensor.corey_s_ipad_audio_output",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b210b42650d5d672673275e83e32a4ad64a4642f2c956488274737d8719a5518_iphone-audio-output"
+  },
+  {
+    "entity_id": "sensor.corey_s_ipad_geocoded_location",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b210b42650d5d672673275e83e32a4ad64a4642f2c956488274737d8719a5518_geocoded_location"
+  },
+  {
+    "entity_id": "media_player.speakers",
+    "name": "Speakers",
+    "platform": "wiim",
+    "unique_id": "FF98F09CDF91BB834A31F9A3"
+  },
+  {
+    "entity_id": "media_player.speakers_group_master",
+    "name": "Speakers Group Master",
+    "platform": "wiim",
+    "unique_id": "FF98F09CDF91BB834A31F9A3_group_master"
+  },
+  {
+    "entity_id": "sensor.speakers_multiroom_role",
+    "name": "Speakers Multiroom Role",
+    "platform": "wiim",
+    "unique_id": "FF98F09CDF91BB834A31F9A3_multiroom_role"
+  },
+  {
+    "entity_id": "sensor.speakers_current_input",
+    "name": null,
+    "platform": "wiim",
+    "unique_id": "FF98F09CDF91BB834A31F9A3_current_input"
+  },
+  {
+    "entity_id": "sensor.speakers_bluetooth_output",
+    "name": null,
+    "platform": "wiim",
+    "unique_id": "FF98F09CDF91BB834A31F9A3_bluetooth_output"
+  },
+  {
+    "entity_id": "sensor.speakers_device_status",
+    "name": null,
+    "platform": "wiim",
+    "unique_id": "FF98F09CDF91BB834A31F9A3_diagnostic"
+  },
+  {
+    "entity_id": "sensor.speakers_firmware",
+    "name": null,
+    "platform": "wiim",
+    "unique_id": "FF98F09CDF91BB834A31F9A3_firmware"
+  },
+  {
+    "entity_id": "sensor.speakers_audio_quality",
+    "name": null,
+    "platform": "wiim",
+    "unique_id": "FF98F09CDF91BB834A31F9A3_audio_quality"
+  },
+  {
+    "entity_id": "sensor.speakers_sample_rate",
+    "name": null,
+    "platform": "wiim",
+    "unique_id": "FF98F09CDF91BB834A31F9A3_sample_rate"
+  },
+  {
+    "entity_id": "sensor.speakers_bit_depth",
+    "name": null,
+    "platform": "wiim",
+    "unique_id": "FF98F09CDF91BB834A31F9A3_bit_depth"
+  },
+  {
+    "entity_id": "sensor.speakers_bit_rate",
+    "name": null,
+    "platform": "wiim",
+    "unique_id": "FF98F09CDF91BB834A31F9A3_bit_rate"
+  },
+  {
+    "entity_id": "light.speakers_led",
+    "name": null,
+    "platform": "wiim",
+    "unique_id": "FF98F09CDF91BB834A31F9A3_led"
+  },
+  {
+    "entity_id": "select.speakers_audio_output_mode",
+    "name": null,
+    "platform": "wiim",
+    "unique_id": "FF98F09CDF91BB834A31F9A3_output_mode"
+  },
+  {
+    "entity_id": "switch.speakers_12v_trigger",
+    "name": null,
+    "platform": "wiim",
+    "unique_id": "FF98F09CDF91BB834A31F9A3_trigger_out"
+  },
+  {
+    "entity_id": "update.speakers_firmware_update",
+    "name": null,
+    "platform": "wiim",
+    "unique_id": "FF98F09CDF91BB834A31F9A3_fw_update"
+  },
+  {
+    "entity_id": "sensor.smart_switch_2104302136240151855648e1e97013f9_sensor_protocol",
+    "name": null,
+    "platform": "meross_lan",
+    "unique_id": "2104302136240151855648e1e97013f9_sensor_protocol"
+  },
+  {
+    "entity_id": "sensor.guest_room_lamp_config_overtemp_type",
+    "name": null,
+    "platform": "meross_lan",
+    "unique_id": "2104302136240151855648e1e97013f9_config_overtemp_type"
+  },
+  {
+    "entity_id": "sensor.guest_room_lamp_signal_strength",
+    "name": null,
+    "platform": "meross_lan",
+    "unique_id": "2104302136240151855648e1e97013f9_signal_strength"
+  },
+  {
+    "entity_id": "button.guest_room_lamp_refresh",
+    "name": null,
+    "platform": "meross_lan",
+    "unique_id": "2104302136240151855648e1e97013f9_button_refresh"
+  },
+  {
+    "entity_id": "button.guest_room_lamp_reload",
+    "name": null,
+    "platform": "meross_lan",
+    "unique_id": "2104302136240151855648e1e97013f9_button_reload"
+  },
+  {
+    "entity_id": "switch.guest_room_lamp_config_overtemp_enable",
+    "name": null,
+    "platform": "meross_lan",
+    "unique_id": "2104302136240151855648e1e97013f9_config_overtemp_enable"
+  },
+  {
+    "entity_id": "switch.guest_room_lamp_outlet",
+    "name": null,
+    "platform": "meross_lan",
+    "unique_id": "2104302136240151855648e1e97013f9_0"
+  },
+  {
+    "entity_id": "light.guest_room_lamp_dnd",
+    "name": null,
+    "platform": "meross_lan",
+    "unique_id": "2104302136240151855648e1e97013f9_dnd"
+  },
+  {
+    "entity_id": "binary_sensor.studio_code_server_running",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "a0d7b954_vscode_state"
+  },
+  {
+    "entity_id": "sensor.studio_code_server_version",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "a0d7b954_vscode_version"
+  },
+  {
+    "entity_id": "sensor.studio_code_server_newest_version",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "a0d7b954_vscode_version_latest"
+  },
+  {
+    "entity_id": "sensor.studio_code_server_cpu_percent",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "a0d7b954_vscode_cpu_percent"
+  },
+  {
+    "entity_id": "sensor.studio_code_server_memory_percent",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "a0d7b954_vscode_memory_percent"
+  },
+  {
+    "entity_id": "switch.studio_code_server",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "a0d7b954_vscode_state"
+  },
+  {
+    "entity_id": "update.studio_code_server_update",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "a0d7b954_vscode_version_latest"
+  },
+  {
+    "entity_id": "binary_sensor.appdata_connected",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "home_assistant_mount_appdata_state"
+  },
+  {
+    "entity_id": "update.sun_porch_ac_firmware",
+    "name": null,
+    "platform": "esphome",
+    "unique_id": "98:A3:16:F8:36:18"
+  },
+  {
+    "entity_id": "sensor.sun_porch_ac_sun_porch_ac_operating_state",
+    "name": null,
+    "platform": "esphome",
+    "unique_id": "98:A3:16:F8:36:18-sensor-sun_porch_ac_operating_state"
+  },
+  {
+    "entity_id": "climate.sun_porch_ac_sun_porch_ac",
+    "name": null,
+    "platform": "esphome",
+    "unique_id": "98:A3:16:F8:36:18-climate-sun_porch_ac"
+  },
+  {
+    "entity_id": "update.xiaomi_vacuum_map_card_update",
+    "name": null,
+    "platform": "hacs",
+    "unique_id": "193372044"
+  },
+  {
+    "entity_id": "switch.xiaomi_vacuum_map_card_pre_release",
+    "name": null,
+    "platform": "hacs",
+    "unique_id": "193372044"
+  },
+  {
+    "entity_id": "update.vacuum_card_update",
+    "name": null,
+    "platform": "hacs",
+    "unique_id": "261291295"
+  },
+  {
+    "entity_id": "switch.vacuum_card_pre_release",
+    "name": null,
+    "platform": "hacs",
+    "unique_id": "261291295"
+  },
+  {
+    "entity_id": "number.speakers_subwoofer_level",
+    "name": null,
+    "platform": "wiim",
+    "unique_id": "FF98F09CDF91BB834A31F9A3_subwoofer_level"
+  },
+  {
+    "entity_id": "number.speakers_channel_balance",
+    "name": null,
+    "platform": "wiim",
+    "unique_id": "FF98F09CDF91BB834A31F9A3_channel_balance"
+  },
+  {
+    "entity_id": "switch.speakers_subwoofer",
+    "name": null,
+    "platform": "wiim",
+    "unique_id": "FF98F09CDF91BB834A31F9A3_subwoofer"
+  },
+  {
+    "entity_id": "binary_sensor.mosquitto_broker_running",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "core_mosquitto_state"
+  },
+  {
+    "entity_id": "sensor.mosquitto_broker_version",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "core_mosquitto_version"
+  },
+  {
+    "entity_id": "sensor.mosquitto_broker_newest_version",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "core_mosquitto_version_latest"
+  },
+  {
+    "entity_id": "sensor.mosquitto_broker_cpu_percent",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "core_mosquitto_cpu_percent"
+  },
+  {
+    "entity_id": "sensor.mosquitto_broker_memory_percent",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "core_mosquitto_memory_percent"
+  },
+  {
+    "entity_id": "switch.mosquitto_broker",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "core_mosquitto_state"
+  },
+  {
+    "entity_id": "update.mosquitto_broker_update",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "core_mosquitto_version_latest"
+  },
+  {
+    "entity_id": "notify.coreys_iphone",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "889B6925-28C8-4851-889C-E7C5EA0AAF1B"
+  },
+  {
+    "entity_id": "notify.corey_s_ipad",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "85FB46DE-311A-4CD0-806A-88299E9F3FB5"
+  },
+  {
+    "entity_id": "binary_sensor.garage_door_motion",
+    "name": null,
+    "platform": "esphome",
+    "unique_id": "CC:7B:5C:4C:15:D4-binary_sensor-motion"
+  },
+  {
+    "entity_id": "binary_sensor.garage_door_obstruction",
+    "name": null,
+    "platform": "esphome",
+    "unique_id": "CC:7B:5C:4C:15:D4-binary_sensor-obstruction"
+  },
+  {
+    "entity_id": "binary_sensor.garage_door_button",
+    "name": null,
+    "platform": "esphome",
+    "unique_id": "CC:7B:5C:4C:15:D4-binary_sensor-button"
+  },
+  {
+    "entity_id": "binary_sensor.garage_door_motor",
+    "name": null,
+    "platform": "esphome",
+    "unique_id": "CC:7B:5C:4C:15:D4-binary_sensor-motor"
+  },
+  {
+    "entity_id": "binary_sensor.garage_door_dry_contact_open",
+    "name": null,
+    "platform": "esphome",
+    "unique_id": "CC:7B:5C:4C:15:D4-binary_sensor-dry_contact_open"
+  },
+  {
+    "entity_id": "binary_sensor.garage_door_dry_contact_close",
+    "name": null,
+    "platform": "esphome",
+    "unique_id": "CC:7B:5C:4C:15:D4-binary_sensor-dry_contact_close"
+  },
+  {
+    "entity_id": "binary_sensor.garage_door_dry_contact_light",
+    "name": null,
+    "platform": "esphome",
+    "unique_id": "CC:7B:5C:4C:15:D4-binary_sensor-dry_contact_light"
+  },
+  {
+    "entity_id": "cover.garage_door_door",
+    "name": null,
+    "platform": "esphome",
+    "unique_id": "CC:7B:5C:4C:15:D4-cover-door"
+  },
+  {
+    "entity_id": "button.garage_door_restart",
+    "name": null,
+    "platform": "esphome",
+    "unique_id": "CC:7B:5C:4C:15:D4-button-restart"
+  },
+  {
+    "entity_id": "button.garage_door_safe_mode_boot",
+    "name": null,
+    "platform": "esphome",
+    "unique_id": "CC:7B:5C:4C:15:D4-button-safe_mode_boot"
+  },
+  {
+    "entity_id": "button.garage_door_query_status",
+    "name": null,
+    "platform": "esphome",
+    "unique_id": "CC:7B:5C:4C:15:D4-button-query_status"
+  },
+  {
+    "entity_id": "button.garage_door_query_openings",
+    "name": null,
+    "platform": "esphome",
+    "unique_id": "CC:7B:5C:4C:15:D4-button-query_openings"
+  },
+  {
+    "entity_id": "button.garage_door_sync",
+    "name": null,
+    "platform": "esphome",
+    "unique_id": "CC:7B:5C:4C:15:D4-button-sync"
+  },
+  {
+    "entity_id": "button.garage_door_toggle_door",
+    "name": null,
+    "platform": "esphome",
+    "unique_id": "CC:7B:5C:4C:15:D4-button-toggle_door"
+  },
+  {
+    "entity_id": "sensor.garage_door_openings",
+    "name": null,
+    "platform": "esphome",
+    "unique_id": "CC:7B:5C:4C:15:D4-sensor-openings"
+  },
+  {
+    "entity_id": "sensor.garage_door_paired_devices",
+    "name": null,
+    "platform": "esphome",
+    "unique_id": "CC:7B:5C:4C:15:D4-sensor-paired_devices"
+  },
+  {
+    "entity_id": "sensor.garage_door_firmware_version",
+    "name": null,
+    "platform": "esphome",
+    "unique_id": "CC:7B:5C:4C:15:D4-text_sensor-firmware_version"
+  },
+  {
+    "entity_id": "light.garage_door_light",
+    "name": null,
+    "platform": "esphome",
+    "unique_id": "CC:7B:5C:4C:15:D4-light-light"
+  },
+  {
+    "entity_id": "switch.garage_door_learn",
+    "name": null,
+    "platform": "esphome",
+    "unique_id": "CC:7B:5C:4C:15:D4-switch-learn"
+  },
+  {
+    "entity_id": "lock.garage_door_lock_remotes",
+    "name": null,
+    "platform": "esphome",
+    "unique_id": "CC:7B:5C:4C:15:D4-lock-lock_remotes"
+  },
+  {
+    "entity_id": "number.garage_door_rolling_code_counter",
+    "name": null,
+    "platform": "esphome",
+    "unique_id": "CC:7B:5C:4C:15:D4-number-rolling_code_counter"
+  },
+  {
+    "entity_id": "number.garage_door_opening_duration",
+    "name": null,
+    "platform": "esphome",
+    "unique_id": "CC:7B:5C:4C:15:D4-number-opening_duration"
+  },
+  {
+    "entity_id": "number.garage_door_closing_duration",
+    "name": null,
+    "platform": "esphome",
+    "unique_id": "CC:7B:5C:4C:15:D4-number-closing_duration"
+  },
+  {
+    "entity_id": "number.garage_door_client_id",
+    "name": null,
+    "platform": "esphome",
+    "unique_id": "CC:7B:5C:4C:15:D4-number-client_id"
+  },
+  {
+    "entity_id": "media_player.master_bedroom",
+    "name": null,
+    "platform": "apple_tv",
+    "unique_id": "FE:EF:48:3A:88:D5"
+  },
+  {
+    "entity_id": "remote.master_bedroom",
+    "name": null,
+    "platform": "apple_tv",
+    "unique_id": "FE:EF:48:3A:88:D5"
+  },
+  {
+    "entity_id": "sensor.smart_switch_2309264342878951081a48e1e9dcbdc5_sensor_protocol",
+    "name": null,
+    "platform": "meross_lan",
+    "unique_id": "2309264342878951081a48e1e9dcbdc5_sensor_protocol"
+  },
+  {
+    "entity_id": "sensor.sound_machine_config_overtemp_type",
+    "name": null,
+    "platform": "meross_lan",
+    "unique_id": "2309264342878951081a48e1e9dcbdc5_config_overtemp_type"
+  },
+  {
+    "entity_id": "sensor.sound_machine_signal_strength",
+    "name": null,
+    "platform": "meross_lan",
+    "unique_id": "2309264342878951081a48e1e9dcbdc5_signal_strength"
+  },
+  {
+    "entity_id": "button.sound_machine_refresh",
+    "name": null,
+    "platform": "meross_lan",
+    "unique_id": "2309264342878951081a48e1e9dcbdc5_button_refresh"
+  },
+  {
+    "entity_id": "button.sound_machine_reload",
+    "name": null,
+    "platform": "meross_lan",
+    "unique_id": "2309264342878951081a48e1e9dcbdc5_button_reload"
+  },
+  {
+    "entity_id": "switch.sound_machine_config_overtemp_enable",
+    "name": null,
+    "platform": "meross_lan",
+    "unique_id": "2309264342878951081a48e1e9dcbdc5_config_overtemp_enable"
+  },
+  {
+    "entity_id": "switch.sound_machine_outlet",
+    "name": null,
+    "platform": "meross_lan",
+    "unique_id": "2309264342878951081a48e1e9dcbdc5_0"
+  },
+  {
+    "entity_id": "light.sound_machine_dnd",
+    "name": null,
+    "platform": "meross_lan",
+    "unique_id": "2309264342878951081a48e1e9dcbdc5_dnd"
+  },
+  {
+    "entity_id": "automation.bedroom_media_sync_sound_machine",
+    "name": null,
+    "platform": "automation",
+    "unique_id": "1778199948893"
+  },
+  {
+    "entity_id": "media_player.living_room",
+    "name": null,
+    "platform": "apple_tv",
+    "unique_id": "FA:70:4D:F8:F6:9A"
+  },
+  {
+    "entity_id": "remote.living_room",
+    "name": null,
+    "platform": "apple_tv",
+    "unique_id": "FA:70:4D:F8:F6:9A"
+  },
+  {
+    "entity_id": "binary_sensor.matter_server_running",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "core_matter_server_state"
+  },
+  {
+    "entity_id": "sensor.matter_server_version",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "core_matter_server_version"
+  },
+  {
+    "entity_id": "sensor.matter_server_newest_version",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "core_matter_server_version_latest"
+  },
+  {
+    "entity_id": "sensor.matter_server_cpu_percent",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "core_matter_server_cpu_percent"
+  },
+  {
+    "entity_id": "sensor.matter_server_memory_percent",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "core_matter_server_memory_percent"
+  },
+  {
+    "entity_id": "switch.matter_server",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "core_matter_server_state"
+  },
+  {
+    "entity_id": "update.matter_server_update",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "core_matter_server_version_latest"
+  },
+  {
+    "entity_id": "binary_sensor.slzb_mrw10u_ethernet",
+    "name": null,
+    "platform": "smlight",
+    "unique_id": "d0:cf:13:59:9f:14_ethernet"
+  },
+  {
+    "entity_id": "binary_sensor.slzb_mrw10u_vpn",
+    "name": null,
+    "platform": "smlight",
+    "unique_id": "d0:cf:13:59:9f:14_vpn"
+  },
+  {
+    "entity_id": "binary_sensor.slzb_mrw10u_wi_fi",
+    "name": null,
+    "platform": "smlight",
+    "unique_id": "d0:cf:13:59:9f:14_wifi"
+  },
+  {
+    "entity_id": "binary_sensor.slzb_mrw10u_internet",
+    "name": null,
+    "platform": "smlight",
+    "unique_id": "d0:cf:13:59:9f:14_internet"
+  },
+  {
+    "entity_id": "button.slzb_mrw10u_core_restart",
+    "name": null,
+    "platform": "smlight",
+    "unique_id": "d0:cf:13:59:9f:14-core_restart"
+  },
+  {
+    "entity_id": "button.slzb_mrw10u_zigbee_restart",
+    "name": null,
+    "platform": "smlight",
+    "unique_id": "d0:cf:13:59:9f:14-zigbee_restart"
+  },
+  {
+    "entity_id": "button.slzb_mrw10u_zigbee_flash_mode",
+    "name": null,
+    "platform": "smlight",
+    "unique_id": "d0:cf:13:59:9f:14-zigbee_flash_mode"
+  },
+  {
+    "entity_id": "button.slzb_mrw10u_zigbee_restart_2",
+    "name": null,
+    "platform": "smlight",
+    "unique_id": "d0:cf:13:59:9f:14-zigbee_restart_1"
+  },
+  {
+    "entity_id": "button.slzb_mrw10u_zigbee_flash_mode_2",
+    "name": null,
+    "platform": "smlight",
+    "unique_id": "d0:cf:13:59:9f:14-zigbee_flash_mode_1"
+  },
+  {
+    "entity_id": "sensor.slzb_mrw10u_connection_mode",
+    "name": null,
+    "platform": "smlight",
+    "unique_id": "d0:cf:13:59:9f:14_device_mode"
+  },
+  {
+    "entity_id": "sensor.slzb_mrw10u_firmware_channel",
+    "name": null,
+    "platform": "smlight",
+    "unique_id": "d0:cf:13:59:9f:14_firmware_channel"
+  },
+  {
+    "entity_id": "sensor.slzb_mrw10u_core_chip_temp",
+    "name": null,
+    "platform": "smlight",
+    "unique_id": "d0:cf:13:59:9f:14_core_temperature"
+  },
+  {
+    "entity_id": "sensor.slzb_mrw10u_zigbee_chip_temp",
+    "name": null,
+    "platform": "smlight",
+    "unique_id": "d0:cf:13:59:9f:14_zigbee_temperature"
+  },
+  {
+    "entity_id": "sensor.slzb_mrw10u_ram_usage",
+    "name": null,
+    "platform": "smlight",
+    "unique_id": "d0:cf:13:59:9f:14_ram_usage"
+  },
+  {
+    "entity_id": "sensor.slzb_mrw10u_filesystem_usage",
+    "name": null,
+    "platform": "smlight",
+    "unique_id": "d0:cf:13:59:9f:14_fs_usage"
+  },
+  {
+    "entity_id": "sensor.slzb_mrw10u_core_uptime",
+    "name": null,
+    "platform": "smlight",
+    "unique_id": "d0:cf:13:59:9f:14_core_uptime"
+  },
+  {
+    "entity_id": "sensor.slzb_mrw10u_zigbee_uptime",
+    "name": null,
+    "platform": "smlight",
+    "unique_id": "d0:cf:13:59:9f:14_socket_uptime"
+  },
+  {
+    "entity_id": "sensor.slzb_mrw10u_zigbee_type",
+    "name": null,
+    "platform": "smlight",
+    "unique_id": "d0:cf:13:59:9f:14_zigbee_type"
+  },
+  {
+    "entity_id": "sensor.slzb_mrw10u_zigbee_type_2",
+    "name": null,
+    "platform": "smlight",
+    "unique_id": "d0:cf:13:59:9f:14_zigbee_type_1"
+  },
+  {
+    "entity_id": "sensor.slzb_mrw10u_zigbee_chip_temp_2",
+    "name": null,
+    "platform": "smlight",
+    "unique_id": "d0:cf:13:59:9f:14_zigbee_temperature_2"
+  },
+  {
+    "entity_id": "sensor.slzb_mrw10u_psram_usage",
+    "name": null,
+    "platform": "smlight",
+    "unique_id": "d0:cf:13:59:9f:14_psram_usage"
+  },
+  {
+    "entity_id": "switch.slzb_mrw10u_disable_leds",
+    "name": null,
+    "platform": "smlight",
+    "unique_id": "d0:cf:13:59:9f:14-disable_led"
+  },
+  {
+    "entity_id": "switch.slzb_mrw10u_led_night_mode",
+    "name": null,
+    "platform": "smlight",
+    "unique_id": "d0:cf:13:59:9f:14-night_mode"
+  },
+  {
+    "entity_id": "switch.slzb_mrw10u_auto_zigbee_update",
+    "name": null,
+    "platform": "smlight",
+    "unique_id": "d0:cf:13:59:9f:14-auto_zigbee_update"
+  },
+  {
+    "entity_id": "switch.slzb_mrw10u_vpn_enabled",
+    "name": null,
+    "platform": "smlight",
+    "unique_id": "d0:cf:13:59:9f:14-vpn_enabled"
+  },
+  {
+    "entity_id": "update.slzb_mrw10u_core_firmware",
+    "name": null,
+    "platform": "smlight",
+    "unique_id": "d0:cf:13:59:9f:14-core_update"
+  },
+  {
+    "entity_id": "update.slzb_mrw10u_zigbee_firmware",
+    "name": null,
+    "platform": "smlight",
+    "unique_id": "d0:cf:13:59:9f:14-zigbee_update"
+  },
+  {
+    "entity_id": "update.slzb_mrw10u_zigbee_firmware_2",
+    "name": null,
+    "platform": "smlight",
+    "unique_id": "d0:cf:13:59:9f:14-zigbee_update_1"
+  },
+  {
+    "entity_id": "binary_sensor.openthread_border_router_running",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "core_openthread_border_router_state"
+  },
+  {
+    "entity_id": "sensor.openthread_border_router_version",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "core_openthread_border_router_version"
+  },
+  {
+    "entity_id": "sensor.openthread_border_router_newest_version",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "core_openthread_border_router_version_latest"
+  },
+  {
+    "entity_id": "sensor.openthread_border_router_cpu_percent",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "core_openthread_border_router_cpu_percent"
+  },
+  {
+    "entity_id": "sensor.openthread_border_router_memory_percent",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "core_openthread_border_router_memory_percent"
+  },
+  {
+    "entity_id": "switch.openthread_border_router",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "core_openthread_border_router_state"
+  },
+  {
+    "entity_id": "update.openthread_border_router_update",
+    "name": null,
+    "platform": "hassio",
+    "unique_id": "core_openthread_border_router_version_latest"
+  },
+  {
+    "entity_id": "binary_sensor.living_room_keyboard_focus",
+    "name": null,
+    "platform": "apple_tv",
+    "unique_id": "FA:70:4D:F8:F6:9A"
+  },
+  {
+    "entity_id": "binary_sensor.master_bedroom_keyboard_focus",
+    "name": null,
+    "platform": "apple_tv",
+    "unique_id": "FE:EF:48:3A:88:D5"
+  },
+  {
+    "entity_id": "sensor.smart_night_light_w_current_switch_position",
+    "name": null,
+    "platform": "matter",
+    "unique_id": "35D2AE91C892C654-0000000000000006-MatterNodeDevice-0-SwitchCurrentPosition-59-1"
+  },
+  {
+    "entity_id": "update.smart_night_light_w_firmware",
+    "name": null,
+    "platform": "matter",
+    "unique_id": "35D2AE91C892C654-0000000000000006-MatterNodeDevice-0-MatterUpdate-40-9"
+  },
+  {
+    "entity_id": "light.smart_night_light_w",
+    "name": null,
+    "platform": "matter",
+    "unique_id": "35D2AE91C892C654-0000000000000006-MatterNodeDevice-1-MatterLight-6-0"
+  },
+  {
+    "entity_id": "number.smart_night_light_w_on_level",
+    "name": null,
+    "platform": "matter",
+    "unique_id": "35D2AE91C892C654-0000000000000006-MatterNodeDevice-1-on_level-8-17"
+  },
+  {
+    "entity_id": "number.smart_night_light_w_power_on_level",
+    "name": null,
+    "platform": "matter",
+    "unique_id": "35D2AE91C892C654-0000000000000006-MatterNodeDevice-1-power_on_level-8-16384"
+  },
+  {
+    "entity_id": "number.smart_night_light_w_on_transition_time",
+    "name": null,
+    "platform": "matter",
+    "unique_id": "35D2AE91C892C654-0000000000000006-MatterNodeDevice-1-on_transition_time-8-18"
+  },
+  {
+    "entity_id": "number.smart_night_light_w_off_transition_time",
+    "name": null,
+    "platform": "matter",
+    "unique_id": "35D2AE91C892C654-0000000000000006-MatterNodeDevice-1-off_transition_time-8-19"
+  },
+  {
+    "entity_id": "number.smart_night_light_w_on_off_transition_time",
+    "name": null,
+    "platform": "matter",
+    "unique_id": "35D2AE91C892C654-0000000000000006-MatterNodeDevice-1-on_off_transition_time-8-16"
+  },
+  {
+    "entity_id": "select.smart_night_light_w_power_on_behavior",
+    "name": null,
+    "platform": "matter",
+    "unique_id": "35D2AE91C892C654-0000000000000006-MatterNodeDevice-1-MatterStartUpOnOff-6-16387"
+  },
+  {
+    "entity_id": "sensor.smart_night_light_w_illuminance",
+    "name": null,
+    "platform": "matter",
+    "unique_id": "35D2AE91C892C654-0000000000000006-MatterNodeDevice-2-LightSensor-1024-0"
+  },
+  {
+    "entity_id": "binary_sensor.smart_night_light_w_occupancy",
+    "name": null,
+    "platform": "matter",
+    "unique_id": "35D2AE91C892C654-0000000000000006-MatterNodeDevice-3-OccupancySensor-1030-0"
+  },
+  {
+    "entity_id": "sensor.smart_night_light_w_current_switch_position_2",
+    "name": null,
+    "platform": "matter",
+    "unique_id": "35D2AE91C892C654-0000000000000007-MatterNodeDevice-0-SwitchCurrentPosition-59-1"
+  },
+  {
+    "entity_id": "update.smart_night_light_w_firmware_2",
+    "name": null,
+    "platform": "matter",
+    "unique_id": "35D2AE91C892C654-0000000000000007-MatterNodeDevice-0-MatterUpdate-40-9"
+  },
+  {
+    "entity_id": "light.smart_night_light_w_2",
+    "name": null,
+    "platform": "matter",
+    "unique_id": "35D2AE91C892C654-0000000000000007-MatterNodeDevice-1-MatterLight-6-0"
+  },
+  {
+    "entity_id": "number.smart_night_light_w_on_level_2",
+    "name": null,
+    "platform": "matter",
+    "unique_id": "35D2AE91C892C654-0000000000000007-MatterNodeDevice-1-on_level-8-17"
+  },
+  {
+    "entity_id": "number.smart_night_light_w_power_on_level_2",
+    "name": null,
+    "platform": "matter",
+    "unique_id": "35D2AE91C892C654-0000000000000007-MatterNodeDevice-1-power_on_level-8-16384"
+  },
+  {
+    "entity_id": "number.smart_night_light_w_on_transition_time_2",
+    "name": null,
+    "platform": "matter",
+    "unique_id": "35D2AE91C892C654-0000000000000007-MatterNodeDevice-1-on_transition_time-8-18"
+  },
+  {
+    "entity_id": "number.smart_night_light_w_off_transition_time_2",
+    "name": null,
+    "platform": "matter",
+    "unique_id": "35D2AE91C892C654-0000000000000007-MatterNodeDevice-1-off_transition_time-8-19"
+  },
+  {
+    "entity_id": "number.smart_night_light_w_on_off_transition_time_2",
+    "name": null,
+    "platform": "matter",
+    "unique_id": "35D2AE91C892C654-0000000000000007-MatterNodeDevice-1-on_off_transition_time-8-16"
+  },
+  {
+    "entity_id": "select.smart_night_light_w_power_on_behavior_2",
+    "name": null,
+    "platform": "matter",
+    "unique_id": "35D2AE91C892C654-0000000000000007-MatterNodeDevice-1-MatterStartUpOnOff-6-16387"
+  },
+  {
+    "entity_id": "sensor.smart_night_light_w_illuminance_2",
+    "name": null,
+    "platform": "matter",
+    "unique_id": "35D2AE91C892C654-0000000000000007-MatterNodeDevice-2-LightSensor-1024-0"
+  },
+  {
+    "entity_id": "binary_sensor.smart_night_light_w_occupancy_2",
+    "name": null,
+    "platform": "matter",
+    "unique_id": "35D2AE91C892C654-0000000000000007-MatterNodeDevice-3-OccupancySensor-1030-0"
+  },
+  {
+    "entity_id": "sensor.smart_switch_2309268866216151081a48e1e9dcc1c5_sensor_protocol",
+    "name": null,
+    "platform": "meross_lan",
+    "unique_id": "2309268866216151081a48e1e9dcc1c5_sensor_protocol"
+  },
+  {
+    "entity_id": "sensor.smart_switch_2309268866216151081a48e1e9dcc1c5_config_overtemp_type",
+    "name": null,
+    "platform": "meross_lan",
+    "unique_id": "2309268866216151081a48e1e9dcc1c5_config_overtemp_type"
+  },
+  {
+    "entity_id": "sensor.smart_switch_2309268866216151081a48e1e9dcc1c5_signal_strength",
+    "name": null,
+    "platform": "meross_lan",
+    "unique_id": "2309268866216151081a48e1e9dcc1c5_signal_strength"
+  },
+  {
+    "entity_id": "button.smart_switch_2309268866216151081a48e1e9dcc1c5_refresh",
+    "name": null,
+    "platform": "meross_lan",
+    "unique_id": "2309268866216151081a48e1e9dcc1c5_button_refresh"
+  },
+  {
+    "entity_id": "button.smart_switch_2309268866216151081a48e1e9dcc1c5_reload",
+    "name": null,
+    "platform": "meross_lan",
+    "unique_id": "2309268866216151081a48e1e9dcc1c5_button_reload"
+  },
+  {
+    "entity_id": "switch.smart_switch_2309268866216151081a48e1e9dcc1c5_config_overtemp_enable",
+    "name": null,
+    "platform": "meross_lan",
+    "unique_id": "2309268866216151081a48e1e9dcc1c5_config_overtemp_enable"
+  },
+  {
+    "entity_id": "switch.smart_switch_2309268866216151081a48e1e9dcc1c5_outlet",
+    "name": null,
+    "platform": "meross_lan",
+    "unique_id": "2309268866216151081a48e1e9dcc1c5_0"
+  },
+  {
+    "entity_id": "light.smart_switch_2309268866216151081a48e1e9dcc1c5_dnd",
+    "name": null,
+    "platform": "meross_lan",
+    "unique_id": "2309268866216151081a48e1e9dcc1c5_dnd"
+  },
+  {
+    "entity_id": "sensor.smart_switch_2309260741545151081a48e1e9dcb96f_sensor_protocol",
+    "name": null,
+    "platform": "meross_lan",
+    "unique_id": "2309260741545151081a48e1e9dcb96f_sensor_protocol"
+  },
+  {
+    "entity_id": "sensor.smart_switch_2309260741545151081a48e1e9dcb96f_config_overtemp_type",
+    "name": null,
+    "platform": "meross_lan",
+    "unique_id": "2309260741545151081a48e1e9dcb96f_config_overtemp_type"
+  },
+  {
+    "entity_id": "sensor.smart_switch_2309260741545151081a48e1e9dcb96f_signal_strength",
+    "name": null,
+    "platform": "meross_lan",
+    "unique_id": "2309260741545151081a48e1e9dcb96f_signal_strength"
+  },
+  {
+    "entity_id": "button.smart_switch_2309260741545151081a48e1e9dcb96f_refresh",
+    "name": null,
+    "platform": "meross_lan",
+    "unique_id": "2309260741545151081a48e1e9dcb96f_button_refresh"
+  },
+  {
+    "entity_id": "button.smart_switch_2309260741545151081a48e1e9dcb96f_reload",
+    "name": null,
+    "platform": "meross_lan",
+    "unique_id": "2309260741545151081a48e1e9dcb96f_button_reload"
+  },
+  {
+    "entity_id": "switch.smart_switch_2309260741545151081a48e1e9dcb96f_config_overtemp_enable",
+    "name": null,
+    "platform": "meross_lan",
+    "unique_id": "2309260741545151081a48e1e9dcb96f_config_overtemp_enable"
+  },
+  {
+    "entity_id": "switch.smart_switch_2309260741545151081a48e1e9dcb96f_outlet",
+    "name": null,
+    "platform": "meross_lan",
+    "unique_id": "2309260741545151081a48e1e9dcb96f_0"
+  },
+  {
+    "entity_id": "light.smart_switch_2309260741545151081a48e1e9dcb96f_dnd",
+    "name": null,
+    "platform": "meross_lan",
+    "unique_id": "2309260741545151081a48e1e9dcb96f_dnd"
+  },
+  {
+    "entity_id": "light.kitchen_main_lights",
+    "name": null,
+    "platform": "lutron_caseta",
+    "unique_id": "116967419"
+  },
+  {
+    "entity_id": "light.living_room_main_lights",
+    "name": "Ceiling Light",
+    "platform": "lutron_caseta",
+    "unique_id": "116967402"
+  },
+  {
+    "entity_id": "light.kitchen_sink_light",
+    "name": null,
+    "platform": "lutron_caseta",
+    "unique_id": "116967407"
+  },
+  {
+    "entity_id": "light.kitchen_under_cabinet",
+    "name": null,
+    "platform": "lutron_caseta",
+    "unique_id": "116967403"
+  },
+  {
+    "entity_id": "switch.front_porch_porch_light",
+    "name": null,
+    "platform": "lutron_caseta",
+    "unique_id": "116723494"
+  },
+  {
+    "entity_id": "switch.smart_bridge_2_unassigned_smart_away",
+    "name": null,
+    "platform": "lutron_caseta",
+    "unique_id": "047d0630_smart_away"
+  },
+  {
+    "entity_id": "binary_sensor.main_floor_occupancy",
+    "name": null,
+    "platform": "ecobee",
+    "unique_id": "521719584086-ei:0-occupancy"
+  },
+  {
+    "entity_id": "binary_sensor.living_room_occupancy",
+    "name": null,
+    "platform": "ecobee",
+    "unique_id": "7M7K-occupancy"
+  },
+  {
+    "entity_id": "binary_sensor.bedroom_occupancy",
+    "name": null,
+    "platform": "ecobee",
+    "unique_id": "7LTW-occupancy"
+  },
+  {
+    "entity_id": "binary_sensor.nursery_occupancy",
+    "name": null,
+    "platform": "ecobee",
+    "unique_id": "K675-occupancy"
+  },
+  {
+    "entity_id": "climate.main_floor",
+    "name": null,
+    "platform": "ecobee",
+    "unique_id": "521719584086"
+  },
+  {
+    "entity_id": "notify.main_floor",
+    "name": null,
+    "platform": "ecobee",
+    "unique_id": "521719584086_notify_0"
+  },
+  {
+    "entity_id": "sensor.main_floor_temperature",
+    "name": null,
+    "platform": "ecobee",
+    "unique_id": "521719584086-ei:0-temperature"
+  },
+  {
+    "entity_id": "sensor.main_floor_humidity",
+    "name": null,
+    "platform": "ecobee",
+    "unique_id": "521719584086-ei:0-humidity"
+  },
+  {
+    "entity_id": "sensor.living_room_temperature",
+    "name": null,
+    "platform": "ecobee",
+    "unique_id": "7M7K-temperature"
+  },
+  {
+    "entity_id": "sensor.bedroom_temperature",
+    "name": null,
+    "platform": "ecobee",
+    "unique_id": "7LTW-temperature"
+  },
+  {
+    "entity_id": "sensor.nursery_temperature",
+    "name": null,
+    "platform": "ecobee",
+    "unique_id": "K675-temperature"
+  },
+  {
+    "entity_id": "weather.main_floor",
+    "name": null,
+    "platform": "ecobee",
+    "unique_id": "521719584086"
+  },
+  {
+    "entity_id": "binary_sensor.robie_mop_attached",
+    "name": null,
+    "platform": "ecovacs",
+    "unique_id": "d80e12fd-69bb-4f3c-9659-a4b5ff14eca4_water_mop_attached"
+  },
+  {
+    "entity_id": "button.robie_relocate",
+    "name": null,
+    "platform": "ecovacs",
+    "unique_id": "d80e12fd-69bb-4f3c-9659-a4b5ff14eca4_relocate"
+  },
+  {
+    "entity_id": "button.robie_reset_main_brush_lifespan",
+    "name": null,
+    "platform": "ecovacs",
+    "unique_id": "d80e12fd-69bb-4f3c-9659-a4b5ff14eca4_reset_lifespan_brush"
+  },
+  {
+    "entity_id": "button.robie_reset_filter_lifespan",
+    "name": null,
+    "platform": "ecovacs",
+    "unique_id": "d80e12fd-69bb-4f3c-9659-a4b5ff14eca4_reset_lifespan_filter"
+  },
+  {
+    "entity_id": "button.robie_reset_side_brush_lifespan",
+    "name": null,
+    "platform": "ecovacs",
+    "unique_id": "d80e12fd-69bb-4f3c-9659-a4b5ff14eca4_reset_lifespan_side_brush"
+  },
+  {
+    "entity_id": "button.robie_reset_unit_care_lifespan",
+    "name": null,
+    "platform": "ecovacs",
+    "unique_id": "d80e12fd-69bb-4f3c-9659-a4b5ff14eca4_reset_lifespan_unit_care"
+  },
+  {
+    "entity_id": "event.robie_last_job",
+    "name": null,
+    "platform": "ecovacs",
+    "unique_id": "d80e12fd-69bb-4f3c-9659-a4b5ff14eca4_stats_report"
+  },
+  {
+    "entity_id": "image.robie_map",
+    "name": null,
+    "platform": "ecovacs",
+    "unique_id": "d80e12fd-69bb-4f3c-9659-a4b5ff14eca4_map"
+  },
+  {
+    "entity_id": "number.robie_volume",
+    "name": null,
+    "platform": "ecovacs",
+    "unique_id": "d80e12fd-69bb-4f3c-9659-a4b5ff14eca4_volume"
+  },
+  {
+    "entity_id": "number.robie_clean_count",
+    "name": null,
+    "platform": "ecovacs",
+    "unique_id": "d80e12fd-69bb-4f3c-9659-a4b5ff14eca4_clean_count"
+  },
+  {
+    "entity_id": "select.robie_water_flow_level",
+    "name": null,
+    "platform": "ecovacs",
+    "unique_id": "d80e12fd-69bb-4f3c-9659-a4b5ff14eca4_water_amount"
+  },
+  {
+    "entity_id": "select.robie_active_map",
+    "name": null,
+    "platform": "ecovacs",
+    "unique_id": "d80e12fd-69bb-4f3c-9659-a4b5ff14eca4_active_map"
+  },
+  {
+    "entity_id": "sensor.robie_area_cleaned",
+    "name": null,
+    "platform": "ecovacs",
+    "unique_id": "d80e12fd-69bb-4f3c-9659-a4b5ff14eca4_stats_area"
+  },
+  {
+    "entity_id": "sensor.robie_cleaning_duration",
+    "name": null,
+    "platform": "ecovacs",
+    "unique_id": "d80e12fd-69bb-4f3c-9659-a4b5ff14eca4_stats_time"
+  },
+  {
+    "entity_id": "sensor.robie_total_area_cleaned",
+    "name": null,
+    "platform": "ecovacs",
+    "unique_id": "d80e12fd-69bb-4f3c-9659-a4b5ff14eca4_total_stats_area"
+  },
+  {
+    "entity_id": "sensor.robie_total_cleaning_duration",
+    "name": null,
+    "platform": "ecovacs",
+    "unique_id": "d80e12fd-69bb-4f3c-9659-a4b5ff14eca4_total_stats_time"
+  },
+  {
+    "entity_id": "sensor.robie_total_cleanings",
+    "name": null,
+    "platform": "ecovacs",
+    "unique_id": "d80e12fd-69bb-4f3c-9659-a4b5ff14eca4_total_stats_cleanings"
+  },
+  {
+    "entity_id": "sensor.robie_battery",
+    "name": null,
+    "platform": "ecovacs",
+    "unique_id": "d80e12fd-69bb-4f3c-9659-a4b5ff14eca4_battery_level"
+  },
+  {
+    "entity_id": "sensor.robie_ip_address",
+    "name": null,
+    "platform": "ecovacs",
+    "unique_id": "d80e12fd-69bb-4f3c-9659-a4b5ff14eca4_network_ip"
+  },
+  {
+    "entity_id": "sensor.robie_wi_fi_rssi",
+    "name": null,
+    "platform": "ecovacs",
+    "unique_id": "d80e12fd-69bb-4f3c-9659-a4b5ff14eca4_network_rssi"
+  },
+  {
+    "entity_id": "sensor.robie_wi_fi_ssid",
+    "name": null,
+    "platform": "ecovacs",
+    "unique_id": "d80e12fd-69bb-4f3c-9659-a4b5ff14eca4_network_ssid"
+  },
+  {
+    "entity_id": "sensor.robie_main_brush_lifespan",
+    "name": null,
+    "platform": "ecovacs",
+    "unique_id": "d80e12fd-69bb-4f3c-9659-a4b5ff14eca4_lifespan_brush"
+  },
+  {
+    "entity_id": "sensor.robie_filter_lifespan",
+    "name": null,
+    "platform": "ecovacs",
+    "unique_id": "d80e12fd-69bb-4f3c-9659-a4b5ff14eca4_lifespan_filter"
+  },
+  {
+    "entity_id": "sensor.robie_side_brush_lifespan",
+    "name": null,
+    "platform": "ecovacs",
+    "unique_id": "d80e12fd-69bb-4f3c-9659-a4b5ff14eca4_lifespan_side_brush"
+  },
+  {
+    "entity_id": "sensor.robie_unit_care_lifespan",
+    "name": null,
+    "platform": "ecovacs",
+    "unique_id": "d80e12fd-69bb-4f3c-9659-a4b5ff14eca4_lifespan_unit_care"
+  },
+  {
+    "entity_id": "sensor.robie_error",
+    "name": null,
+    "platform": "ecovacs",
+    "unique_id": "d80e12fd-69bb-4f3c-9659-a4b5ff14eca4_error"
+  },
+  {
+    "entity_id": "switch.robie_advanced_mode",
+    "name": null,
+    "platform": "ecovacs",
+    "unique_id": "d80e12fd-69bb-4f3c-9659-a4b5ff14eca4_advanced_mode"
+  },
+  {
+    "entity_id": "switch.robie_continuous_cleaning",
+    "name": null,
+    "platform": "ecovacs",
+    "unique_id": "d80e12fd-69bb-4f3c-9659-a4b5ff14eca4_continuous_cleaning"
+  },
+  {
+    "entity_id": "switch.robie_carpet_auto_boost_suction",
+    "name": null,
+    "platform": "ecovacs",
+    "unique_id": "d80e12fd-69bb-4f3c-9659-a4b5ff14eca4_carpet_auto_fan_boost"
+  },
+  {
+    "entity_id": "switch.robie_clean_preference",
+    "name": null,
+    "platform": "ecovacs",
+    "unique_id": "d80e12fd-69bb-4f3c-9659-a4b5ff14eca4_clean_preference"
+  },
+  {
+    "entity_id": "switch.robie_true_detect",
+    "name": null,
+    "platform": "ecovacs",
+    "unique_id": "d80e12fd-69bb-4f3c-9659-a4b5ff14eca4_true_detect"
+  },
+  {
+    "entity_id": "vacuum.robie",
+    "name": "Robie",
+    "platform": "ecovacs",
+    "unique_id": "d80e12fd-69bb-4f3c-9659-a4b5ff14eca4_vacuum"
+  },
+  {
+    "entity_id": "sensor.coreys_iphone_pressure",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b9c698afd4886c777a9fff2d0bd61cbf8285f3dddc1109a41a8afba70dd3301d_pressure"
+  },
+  {
+    "entity_id": "automation.bedroom_overnight_night_light_motion_sync",
+    "name": null,
+    "platform": "automation",
+    "unique_id": "1780625774998"
+  },
+  {
+    "entity_id": "automation.vacation_evening_random_light_simulator",
+    "name": null,
+    "platform": "automation",
+    "unique_id": "1780626847173"
+  },
+  {
+    "entity_id": "automation.vacation_morning_pre_dawn_lights",
+    "name": null,
+    "platform": "automation",
+    "unique_id": "1780626877331"
+  },
+  {
+    "entity_id": "automation.living_daily_evening_lights",
+    "name": null,
+    "platform": "automation",
+    "unique_id": "1780795240154"
+  },
+  {
+    "entity_id": "light.deck_side_lamp_outlet",
+    "name": null,
+    "platform": "switch_as_x",
+    "unique_id": "01KTFWE2JYY9Z7FVF9ZKDTB61J"
+  },
+  {
+    "entity_id": "input_select.house_mode",
+    "name": null,
+    "platform": "input_select",
+    "unique_id": "house_mode"
+  },
+  {
+    "entity_id": "automation.system_automatic_house_mode_sync",
+    "name": null,
+    "platform": "automation",
+    "unique_id": "1780797286761"
+  },
+  {
+    "entity_id": "sensor.airsense11_autoset_cpap_ahi_events_per_hour",
+    "name": null,
+    "platform": "resmed_myair",
+    "unique_id": "resmed_myair_23244232872_ahi"
+  },
+  {
+    "entity_id": "sensor.airsense11_autoset_cpap_usage_minutes",
+    "name": null,
+    "platform": "resmed_myair",
+    "unique_id": "resmed_myair_23244232872_totalUsage"
+  },
+  {
+    "entity_id": "sensor.airsense11_autoset_cpap_mask_on_off",
+    "name": null,
+    "platform": "resmed_myair",
+    "unique_id": "resmed_myair_23244232872_maskPairCount"
+  },
+  {
+    "entity_id": "sensor.airsense11_autoset_cpap_current_data_date",
+    "name": null,
+    "platform": "resmed_myair",
+    "unique_id": "resmed_myair_23244232872_startDate"
+  },
+  {
+    "entity_id": "sensor.airsense11_autoset_cpap_mask_leak",
+    "name": null,
+    "platform": "resmed_myair",
+    "unique_id": "resmed_myair_23244232872_leakPercentile"
+  },
+  {
+    "entity_id": "sensor.airsense11_autoset_cpap_total_myair_score",
+    "name": null,
+    "platform": "resmed_myair",
+    "unique_id": "resmed_myair_23244232872_sleepScore"
+  },
+  {
+    "entity_id": "sensor.airsense11_autoset_cpap_sleep_data_last_collected",
+    "name": null,
+    "platform": "resmed_myair",
+    "unique_id": "resmed_myair_23244232872_lastSleepDataReportTime"
+  },
+  {
+    "entity_id": "sensor.airsense11_autoset_cpap_usage_time",
+    "name": null,
+    "platform": "resmed_myair",
+    "unique_id": "resmed_myair_23244232872_usageTime"
+  },
+  {
+    "entity_id": "sensor.airsense11_autoset_most_recent_sleep_date",
+    "name": null,
+    "platform": "resmed_myair",
+    "unique_id": "resmed_myair_23244232872_mostRecentSleepDate"
+  },
+  {
+    "entity_id": "update.mini_graph_card_update",
+    "name": null,
+    "platform": "hacs",
+    "unique_id": "151280062"
+  },
+  {
+    "entity_id": "switch.mini_graph_card_pre_release",
+    "name": null,
+    "platform": "hacs",
+    "unique_id": "151280062"
+  },
+  {
+    "entity_id": "sensor.corey_s_ipad_pressure",
+    "name": null,
+    "platform": "mobile_app",
+    "unique_id": "b210b42650d5d672673275e83e32a4ad64a4642f2c956488274737d8719a5518_pressure"
+  },
+  {
+    "entity_id": "sensor.sun_porch_ac_sun_porch_ac_uptime",
+    "name": null,
+    "platform": "esphome",
+    "unique_id": "98:A3:16:F8:36:18-sensor-sun_porch_ac_uptime"
+  },
+  {
+    "entity_id": "sensor.sun_porch_ac_sun_porch_ac_wifi_signal",
+    "name": null,
+    "platform": "esphome",
+    "unique_id": "98:A3:16:F8:36:18-sensor-sun_porch_ac_wifi_signal"
+  },
+  {
+    "entity_id": "sensor.sun_porch_ac_sun_porch_ac_compressor_frequency",
+    "name": null,
+    "platform": "esphome",
+    "unique_id": "98:A3:16:F8:36:18-sensor-sun_porch_ac_compressor_frequency"
+  },
+  {
+    "entity_id": "select.sun_porch_ac_sun_porch_ac_horizontal_vane",
+    "name": null,
+    "platform": "esphome",
+    "unique_id": "98:A3:16:F8:36:18-select-sun_porch_ac_horizontal_vane"
+  },
+  {
+    "entity_id": "select.sun_porch_ac_sun_porch_ac_vertical_vane",
+    "name": null,
+    "platform": "esphome",
+    "unique_id": "98:A3:16:F8:36:18-select-sun_porch_ac_vertical_vane"
+  },
+  {
+    "entity_id": "number.hallway_main_floor_fan_minimum_on_time",
+    "name": null,
+    "platform": "ecobee",
+    "unique_id": "521719584086_fan_min_on_time"
+  },
+  {
+    "entity_id": "update.mushroom_update",
+    "name": null,
+    "platform": "hacs",
+    "unique_id": "444350375"
+  },
+  {
+    "entity_id": "update.mushroom_better_sliders_update",
+    "name": null,
+    "platform": "hacs",
+    "unique_id": "586363416"
+  },
+  {
+    "entity_id": "update.mushroom_themes_update",
+    "name": null,
+    "platform": "hacs",
+    "unique_id": "456201687"
+  },
+  {
+    "entity_id": "update.trashcard_update",
+    "name": null,
+    "platform": "hacs",
+    "unique_id": "678764124"
+  },
+  {
+    "entity_id": "calendar.personal",
+    "name": null,
+    "platform": "google",
+    "unique_id": "cblaskie@gmail.com-cblaskie@gmail.com"
+  },
+  {
+    "entity_id": "calendar.birthdays",
+    "name": null,
+    "platform": "google",
+    "unique_id": "cblaskie@gmail.com-cblaskie@gmail.com-birthdays"
+  },
+  {
+    "entity_id": "calendar.working_location",
+    "name": null,
+    "platform": "google",
+    "unique_id": "cblaskie@gmail.com-cblaskie@gmail.com-work-location"
+  },
+  {
+    "entity_id": "calendar.blaskie_family_calendar",
+    "name": null,
+    "platform": "google",
+    "unique_id": "cblaskie@gmail.com-c9746d80b0625d048a6e46b87e660685cf073bffd95f279389e8547971d1caa6@group.calendar.google.com"
+  },
+  {
+    "entity_id": "calendar.vacation",
+    "name": null,
+    "platform": "google",
+    "unique_id": "cblaskie@gmail.com-09c80ac67f64dd3e6d3fe4d9f9f49bced887574804a8764928358b0d327fb560@group.calendar.google.com"
+  },
+  {
+    "entity_id": "calendar.are_schedule",
+    "name": null,
+    "platform": "google",
+    "unique_id": "cblaskie@gmail.com-c00e9e66882597e6e6d4f1f852672a2ec12d99a18e16e4a3296e5bbad3970bc6@group.calendar.google.com"
+  },
+  {
+    "entity_id": "calendar.3211_sherbon_dr_durham",
+    "name": null,
+    "platform": "google",
+    "unique_id": "cblaskie@gmail.com-h9n9usjkb11jq8f478bam06eharnqmtl@import.calendar.google.com"
+  },
+  {
+    "entity_id": "switch.mushroom_themes_pre_release",
+    "name": null,
+    "platform": "hacs",
+    "unique_id": "456201687"
+  },
+  {
+    "entity_id": "switch.mushroom_pre_release",
+    "name": null,
+    "platform": "hacs",
+    "unique_id": "444350375"
+  },
+  {
+    "entity_id": "switch.trashcard_pre_release",
+    "name": null,
+    "platform": "hacs",
+    "unique_id": "678764124"
+  },
+  {
+    "entity_id": "switch.mushroom_better_sliders_pre_release",
+    "name": null,
+    "platform": "hacs",
+    "unique_id": "586363416"
+  },
+  {
+    "entity_id": "automation.system_gitops_github_auto_sync",
+    "name": null,
+    "platform": "automation",
+    "unique_id": "github_gitops_webhook_sync"
+  },
+  {
+    "entity_id": "automation.system_mount_gitops_repo_on_start",
+    "name": null,
+    "platform": "automation",
+    "unique_id": "1776560758011"
+  },
+  {
+    "entity_id": "media_player.deck_2",
+    "name": null,
+    "platform": "wiim",
+    "unique_id": "uuid:FF98F09C-DF91-BB83-4A31-F9A3FF98F09C"
+  }
+]
