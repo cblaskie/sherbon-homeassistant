@@ -14,7 +14,7 @@
 !/dashboards/**
 !/themes/
 !/themes/**
-
+!/ui-lovelace.yaml
 # 3. Explicitly ensure secrets and system cruft are ALWAYS ignored
 .storage/
 *.db

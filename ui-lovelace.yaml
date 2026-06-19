@@ -1,0 +1,34 @@
+title: Home
+views:
+  - title: Home
+    type: sections
+    sections:
+      # --- LIGHTS SECTION ---
+      - type: grid
+        title: Living Room Lights
+        cards:
+          - type: tile
+            entity: light.living_room_main
+            vertical: false
+          - type: tile
+            entity: light.accent_lights
+            vertical: false
+
+      # --- MEDIA SECTION ---
+      - type: grid
+        title: Media
+        cards:
+          - type: media-control
+            entity: media_player.apple_tv
+          - type: tile
+            entity: media_player.plex_server
+            show_entity_picture: true
+
+      # --- STATUS SECTION ---
+      - type: grid
+        title: Home Status
+        cards:
+          - type: tile
+            entity: sensor.living_room_temperature
+          - type: tile
+            entity: binary_sensor.front_door
