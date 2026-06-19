@@ -1,0 +1,38 @@
+esphome:
+  name: sun_porch_ac
+  friendly_name: Sun Porch AC
+
+esp32:
+  board: esp32-s3-devkitc-1
+  framework:
+    type: esp-idf
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  encryption:
+    key: "Dt6zXDFWNwZ+T9Ekc907LOn7kbHTETvV30m9wtQsxhk="
+
+ota:
+  - platform: esphome
+    password: "e1b7c826edd05de8330115698ff747df"
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+# Crucial for XIAO S3 stability:
+  output_power: 8.5dB
+  power_save_mode: none
+  
+  # Optional: Lock it to a specific channel to stop it from scanning
+  fast_connect: true
+  
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Sherbon-Main Fallback Hotspot"
+    password: "HWHRWOa0Cuuf"
+
+captive_portal:
+    

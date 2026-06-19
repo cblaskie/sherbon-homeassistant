@@ -1,0 +1,84 @@
+{
+  "config": {
+    "error": {
+      "league": "Liga inserida inválida.",
+      "cannot_fetch_teams": "Não foi possível buscar as equipes da ESPN. Verifique sua conexão e tente novamente.",
+      "no_teams_found": "Nenhuma equipe encontrada para esse termo de busca. Tente um nome diferente ou deixe em branco para entrada manual."
+    },
+    "step": {
+      "user": {
+        "title": "Selecionar Esporte",
+        "description": "Escolha o esporte para sua equipe ou atleta.",
+        "data": {
+          "sport_key": "Esporte"
+        }
+      },
+      "league": {
+        "title": "Selecionar Liga",
+        "description": "Escolha a liga de {sport_name}.",
+        "data": {
+          "league_id": "Liga"
+        }
+      },
+      "search": {
+        "title": "Buscar Equipe",
+        "description": "Digite o nome para buscar a equipe da {league_name}, ou deixe em branco para inserir o ID da equipe manualmente.",
+        "data": {
+          "search_team": "Buscar nome da equipe (opcional)"
+        }
+      },
+      "select_team": {
+        "title": "Selecionar Equipe",
+        "description": "Escolha sua equipe da {league_name} nos resultados da busca.",
+        "data": {
+          "team_selection": "Equipe",
+          "name": "Nome amigável (opcional)"
+        }
+      },
+      "manual_team": {
+        "title": "Entrada Manual de Equipe",
+        "description": "Insira a abreviação da equipe da {league_name} ou o número do ID conforme mostrado na ESPN, ou '*' para corresponder ao jogo ativo/mais recente.",
+        "data": {
+          "team_id": "ID da Equipe",
+          "conference_id": "Número da Conferência",
+          "name": "Nome amigável"
+        }
+      },
+      "manual_athlete": {
+        "title": "Entrada Manual de Atleta",
+        "description": "Insira o nome do atleta da {league_name}, uma expressão regular, ou '*' para corresponder ao jogo ativo/mais recente.",
+        "data": {
+          "team_id": "ID do Atleta",
+          "conference_id": "Número da Conferência (apenas NCAA)",
+          "name": "Nome amigável"
+        }
+      },
+      "custom_api": {
+        "title": "Configurador de API Personalizada",
+        "description": "Insira a parte 'sport_path' e 'league_path' da API da ESPN para configurar uma API personalizada",
+        "data": {
+          "sport_path": "Caminho do Esporte (Sport Path)",
+          "league_path": "Caminho da Liga (League Path)"
+        }
+      },
+      "finalize": {
+        "title": "Confirmar Nome",
+        "description": "Confirmar/alterar o nome do sensor para {league_name} {team_name}",
+        "data": {
+          "name": "Nome amigável"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Opções do Team Tracker",
+        "description": "Insira o código de idioma de 2 caracteres para usar na chamada da API.",
+        "data": {
+          "api_language": "Idioma da API"
+        }
+      }
+    }
+  }
+}
