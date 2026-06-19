@@ -5,7 +5,8 @@
 !/.gitignore
 !/README.md
 !/configuration.yaml
-!/automations.yaml
+!/automations/**
+!/automations/
 !/scripts.yaml
 !/scenes.yaml
 !/esphome/
