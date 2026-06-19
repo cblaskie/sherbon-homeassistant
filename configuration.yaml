@@ -31,7 +31,6 @@ shell_command:
 
 # Frontend UI Registry Linkage for Code-Driven Dashboards
 lovelace:
-  mode: yaml
   dashboards:
     vault-cockpit:
       mode: yaml
