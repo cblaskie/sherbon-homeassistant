@@ -24,7 +24,7 @@ views:
             entity: media_player.plex_server
             show_entity_picture: true
 
-      # --- STATUS SECTION ---
+      # --- STATUS SECTION --
       - type: grid
         title: Home Status
         cards:
